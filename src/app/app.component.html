@@ -1,1 +1,27 @@
+<!--sidenav- opis upotrebe je na material.io/components/sidenav
+container,mat-sidnav, content su default komponente
+dodali smo app-sidenav-list, app-header, app-navtabs
+-->
+<!--#sidenav dodajemo referencu-->
+
+<mat-sidenav-container>
+    <mat-sidenav #sidenav>
+        
+        <app-sidenav-list (closeSideNavigation)="sidenav.close()"></app-sidenav-list>
+
+     </mat-sidenav>
+    <mat-sidenav-content>
+
+        <app-header (SideNavigationToggle)="sidenav.toggle()"></app-header>
+        <app-navtabs></app-navtabs>
+
+    </mat-sidenav-content>
+
 <router-outlet></router-outlet>
+</mat-sidenav-container>
+
+
+
+
+
+
