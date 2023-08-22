@@ -15,9 +15,12 @@ dodali smo app-sidenav-list, app-header, app-navtabs
         <app-header (SideNavigationToggle)="sidenav.toggle()"></app-header>
         <app-navtabs></app-navtabs>
 
+        <main>
+            <router-outlet></router-outlet>
+        </main>
+
     </mat-sidenav-content>
 
-<router-outlet></router-outlet>
 </mat-sidenav-container>
 
 

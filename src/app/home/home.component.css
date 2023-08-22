@@ -1,0 +1,26 @@
+.container{
+    background: url(/assets/images/nature3.jpg) no-repeat;
+    background-size: 100%;
+    height: 750px;    
+}
+.book-now-container{
+    padding: 35px 115px;
+}
+
+.book-now-button{
+    width: 170px;
+    text-transform: uppercase;
+    border-radius: 4px;
+}
+.mat-mdc-outlined-button:not(:disabled) {
+    border: 2px solid azure;
+}
+.mat-mdc-outlined-button:not(:disabled) {
+    color: azure}
+    /*Primetite da sam morala da dodam selektor klase 
+    mat-mdc-outlined-button svom selektoru. Bez ovoga, 
+    sam birač dugmeta
+     za boju nije dovoljno specifičan za stilizovanje dugmeta.*/
+.headerContainer{
+    height: 100vh;
+}

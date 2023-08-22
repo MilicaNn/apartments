@@ -2,9 +2,77 @@
 @use "@angular/material" as mat;
 
 @include mat.core();
+/* For use in src/lib/core/theming/_palette.scss */
+$apartment-primary: (
+  50 : #f3fdfb,
+  100 : #e0faf5,
+  200 : #cbf7ef,
+  300 : #b6f3e9,
+  400 : #a7f1e4,
+  500 : #97eedf,
+  600 : #8fecdb,
+  700 : #84e9d7,
+  800 : #7ae7d2,
+  900 : #36dfbd,
+  A100 : #ffffff,
+  A200 : #ffffff,
+  A400 : #effffc,
+  A700 : #d5fff7,
+  contrast: (
+      50 : #000000,
+      100 : #000000,
+      200 : #000000,
+      300 : #000000,
+      400 : #000000,
+      500 : #000000,
+      600 : #000000,
+      700 : #000000,
+      800 : #000000,
+      900 : #000000,
+      A100 : #000000,
+      A200 : #000000,
+      A400 : #000000,
+      A700 : #000000,
+    )
+);
+/* For use in src/lib/core/theming/_palette.scss */
+$apartment-accent: (
+    50 : #fefbf1,
+    100 : #fcf5dd,
+    200 : #fbeec6,
+    300 : #f9e7af,
+    400 : #f7e19e,
+    500 : #f6dc8d,
+    600 : #f5d885,
+    700 : #f3d37a,
+    800 : #f2ce70,
+    900 : #efc55d,
+    A100 : #ffffff,
+    A200 : #ffffff,
+    A400 : #fffbf1,
+    A700 : #fff3d8,
+    contrast: (
+        50 : #000000,
+        100 : #000000,
+        200 : #000000,
+        300 : #000000,
+        400 : #000000,
+        500 : #000000,
+        600 : #000000,
+        700 : #000000,
+        800 : #000000,
+        900 : #000000,
+        A100 : #000000,
+        A200 : #000000,
+        A400 : #000000,
+        A700 : #000000,
+    )
+);
 
-$my-theme-primary: mat.define-palette(mat.$teal-palette, 200);
-$my-theme-accent: mat.define-palette(mat.$teal-palette, 50);
+//$apartment-primary(accent) su nase teme, koje smo sami kreirali, tj custom palete
+//i sami smo definisali boju pomocu MATERIAL DESIGN PALETTE GENERATOR
+$my-theme-primary: mat.define-palette($apartment-primary, 700, 400, 900);
+$my-theme-accent: mat.define-palette($apartment-accent, 500, 400, 700);
 $my-theme-warn: mat.define-palette(mat.$red-palette);
 
 $my-theme-theme: mat.define-light-theme(
@@ -13,21 +81,55 @@ $my-theme-theme: mat.define-light-theme(
       primary: $my-theme-primary,
       accent: $my-theme-accent,
       warn: $my-theme-warn,
-    ),
+    )
   )
 );
-
+ 
 @include mat.all-component-themes($my-theme-theme);
 
+//navtabs component scss file
+@include mat.all-component-themes($my-theme-theme);
+
+
+//////////////////////////////////////////////////////////////////
+/// //definicija topografije, sa angular material
+$my-typography:   mat.define-legacy-typography-config(
+  $font-family:   'Rubik, sans-serif',
+  $display-4:     mat.define-typography-level(112px, 112px, 300, $letter-spacing: -0.05em),
+  $display-3:     mat.define-typography-level(56px, 56px, 400, $letter-spacing: -0.02em),
+  $display-2:     mat.define-typography-level(45px, 48px, 400, $letter-spacing: -0.005em),
+  $display-1:     mat.define-typography-level(34px, 40px, 400),
+  $headline:      mat.define-typography-level(97.54px, 32px, 400),
+  $title:         mat.define-typography-level(61px, 0px, 500),
+  $subheading-2:  mat.define-typography-level(48.77px, 0.25px, 400),
+  $subheading-1:  mat.define-typography-level(34.54px, 0.25px, 400),
+  $body-2:        mat.define-typography-level(14.22px, 0.25px, 500),
+  $body-1:        mat.define-typography-level(16.26px, 0.5px, 400),
+  $caption:       mat.define-typography-level(12.19px, 1.2px, 400),
+  $button:        mat.define-typography-level(14.22px, 1.25px, 500),
+  // Line-height must be unit-less fraction of the font-size.
+  $input:         mat.define-typography-level(inherit, 1.125, 400)
+);
+@include mat.all-component-typographies($my-typography);
+
+/*
 html,
 body {
   height: 100%;
 }
 body {
   margin: 0;
-  font-family: Roboto, "Helvetica Neue", sans-serif;
-}
+  font-family: Roboto, "Helvetica Neue", sans-serif;}
+*/
+//svi nasi kontejneri ce biti ovde promenjeni
 
 .navtabs-container{
-  background-color: #f4c9b7;
+  background: mat.get-color-from-palette($apartment-primary, 200);
+ 
+ }
+
+.mdc-list-item.mdc-list-item--with-one-line:hover{
+  background: mat.get-color-from-palette($apartment-primary, 300);
+  color: mat.get-color-from-palette($apartment-accent, 900);
+
 }

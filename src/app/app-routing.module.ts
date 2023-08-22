@@ -13,8 +13,13 @@ import { WeddingsComponent } from './weddings/weddings.component';
 //ovde upisujemo putanje tj rute ka nasim komponentama
 const routes: Routes = [
   {path:'accomodation', component:AccomodationComponent},
-  {path:'celebration', component:CelebrationsComponent},
+  {path:'celebrations', component:CelebrationsComponent},
   {path:'food-beverage', component:FoodBeverageComponent},
+  //ovde smo napravili novu putanju da bi mogi da koristimo zbog specijalnog naziva
+  //food - beverage
+  {path: 'foodbeverage', 
+   redirectTo:'food-beverage',
+   pathMatch:'full'},
   {path:'lifestyle', component:LifestyleComponent},
   {path:'weddings', component:WeddingsComponent},
   {path:'offers', component:OffersComponent},
