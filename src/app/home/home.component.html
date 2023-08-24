@@ -1,4 +1,4 @@
-<div class="container">
+<div class="hero-container">
     <div class="book-now-container">
         <div fxFlex fxLayoutAlign="flex-end">
             <button class="book-now-button" mat-stroked-button color="primary">
@@ -6,14 +6,65 @@
             </button>
         </div>
     </div>
-    <div class="headerContainer" fxLayout="row" fxLayoutAlign="center center">
-        <div>
-            <h3 class="mat-subheading-2">
-                Luxury Beach Front Resort
-            </h3>
-            <h1 class="mat-headline">
-                Natural Beach Resort &amp; Spa
-            </h1>
-        </div>
+    <div class="header-container" fxLayout="row" fxLayout="column" fxLayoutAlign="center center">
+        <h2 class="mat-headline-4">
+            Luxury Beach Front Resort
+        </h2>
+        <h1 class="mat-headline-1">
+            Natural Beach <br/> Resort &amp; Spa
+        </h1>
+    </div>
+    <div class="thailand">
+        <h3>Thailand</h3>
     </div>
 </div>
+<section class="home-section">
+    <div fxLayout="column" fxLayoutAlign="center center">
+        <div>
+            <h2 class="mat-subtitle-1">Luxery beach front Resort</h2>
+        </div>
+        <div>
+            <h3 class="mat-subtitle-2">
+            Asia's Tropical Paradise
+            </h3>
+        </div>
+        <div>
+            <p fxFlex="70" fxFlexOffset="15" class="mat-body-2"> is simply dummy text of the printing and 
+                typesetting industry. Lorem Ipsum has been the industry's 
+                standard dummy text ever since the 1500s, when an unknown
+                 printer took a galley of type and scrambled it to make a type
+                specimen book. It has survived not only five centuries, but 
+                also the leap into electronic typesetting, remaining
+                essentially unchanged. It was popularised in the 1960s 
+                with the release of Letraset sheets containing Lorem Ipsum
+                passages, and more recently with desktop publishing software 
+                like Aldus PageMaker including versions of Lorem Ipsum.
+            </p>
+        </div>
+    </div>
+
+    <div class="rooms-home-display" fxLayout.xs="column" fxFlexLayoutWrap fxLayoutGap="2%" fxLayoutAlign="center center">
+        
+        <mat-card class="rooms-suites" fxFlex="40" fxFlex.sm="80">
+            <mat-card-header fxLayout="column" fxLayout="row" fxLayoutAlign="center center">
+                <h2>Rooms &amp; Suits</h2>
+            </mat-card-header>
+            <mat-card-actions fxLayout="column" fxLayout="row" fxLayoutAlign="center center">
+                <button mat-raised-button color="primary">
+                    Explore
+                </button>
+            </mat-card-actions>
+        </mat-card>  
+        
+        <mat-card class="beach-houses" fxFlex="40" fxFlex.sm="80">
+            <mat-card-header fxLayout="column" fxLayout="row" fxLayoutAlign="center center">
+                <h2>Rooms &amp; Suits</h2>
+            </mat-card-header>
+            <mat-card-actions fxLayout="column" fxLayout="row" fxLayoutAlign="center center">
+                <button mat-raised-button color="primary">
+                    Explore
+                </button>
+            </mat-card-actions>
+        </mat-card>    
+    </div>
+</section>

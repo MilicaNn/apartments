@@ -1,12 +1,12 @@
-.container{
-    background: url(/assets/images/nature3.jpg) no-repeat;
-    background-size: 100%;
-    height: 750px;    
+.hero-container{
+    background: url(/assets/images/nature.jpg) center center no-repeat;
+    background-size: cover;
+    /*height: calc(100vh - 145); */ 
+    text-align: center;  
 }
 .book-now-container{
     padding: 35px 115px;
 }
-
 .book-now-button{
     width: 170px;
     text-transform: uppercase;
@@ -21,6 +21,121 @@
     mat-mdc-outlined-button svom selektoru. Bez ovoga, 
     sam birač dugmeta
      za boju nije dovoljno specifičan za stilizovanje dugmeta.*/
-.headerContainer{
-    height: 100vh;
+
+
+.header-container{
+    padding: 60px 20px;
+    text-align: center;
+    /*width: 600px;*/
+
 }
+.header-container .mat-headline-1{
+    color: white;
+}
+.header-container .mat-headline-4{
+    margin: 10px;
+}
+.thailand{
+    position: relative;
+    width: 100%;
+    text-align: center;
+    transform: translate(-50%, 50%);
+}
+
+.thailand h3{
+    -webkit-text-fill-color: transparent;
+    background: url(/assets/images/naturePart.jpg) repeat;
+    -webkit-background-clip: text;
+    font-stretch: normal;
+    font-size: 200px;
+    letter-spacing: 0.09em;
+    font-weight: 500;
+    text-transform: uppercase;
+    font-family: Rubik, sans-serif;
+    top: 50%;
+    left: 50%;
+    position: relative;
+}
+.home-section{
+    text-align: center;
+    line-height: normal;
+}
+.rooms-home-display{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 15px;
+}
+.rooms-home-display .mat-card{
+    position: relative;
+    text-align: center;
+}
+.rooms-suites{
+    background: url(/assets/images/beachHouse1.jpg) center center no-repeat;
+    background-size: cover;
+}
+.beach-houses{
+    background: url(/assets/images/beachHouse2.jpg) center center no-repeat;
+    background-size: cover;
+}
+
+.rooms-home-display mat-card{
+    height: 600px;
+}
+.rooms-home-display mat-card-header h2{
+    text-transform: uppercase;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 43px;
+}
+
+.rooms-home-display mat-card-header{
+    position:absolute;
+    top:25%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    text-align: center;
+    height: 55px;
+    background: rgba(255, 248, 255, 0.6);
+}
+
+.rooms-home-display mat-card-actions{
+    position: absolute;
+    top: 75%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.rooms-home-display mat-card button{
+    min-width: 141px;
+    min-height: 40px;
+}
+
+
+
+/* @media all and (min-width: 768px) {
+    .hero-container{
+        height: 100vh;
+    }
+} */
+@media all and (max-width:599px){
+    .header-container .mat-headline-4{
+        font-size: 1.1rem;
+        line-height: 1.1;
+    }
+    .header-container .mat-headline-1{
+        font-size: 3rem;
+        line-height: 1.1;
+    }
+}
+@media all and (max-width:1288px) {
+    .thailand,
+    .thailand h3{
+        display: none;
+    }
+    .home-section{
+        padding-top: 80px;
+    }
+}
+
+

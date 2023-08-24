@@ -11,7 +11,7 @@ import {MatSidenavModule} from '@angular/material/sidenav';
 import { MatListModule} from '@angular/material/list';
 import {MatButtonToggleModule} from '@angular/material/button-toggle';
 import {MatTabsModule} from '@angular/material/tabs';
-
+import {MatCardModule} from '@angular/material/card';
 
 
 
@@ -25,6 +25,7 @@ import {MatTabsModule} from '@angular/material/tabs';
             MatListModule,
             MatButtonToggleModule,
             MatTabsModule,
+            MatCardModule,
     
     
     ],
@@ -36,6 +37,7 @@ import {MatTabsModule} from '@angular/material/tabs';
              MatListModule,
              MatButtonToggleModule,
              MatTabsModule,
+             MatCardModule
 
 
              
