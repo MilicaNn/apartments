@@ -31,6 +31,9 @@ import { HeaderComponent } from './navigation/header/header.component';
 import { SidenavListComponent } from './navigation/sidenav-list/sidenav-list.component';
 import { NavtabsComponent } from './navigation/navtabs/navtabs.component';
 
+import { ReactiveFormsModule } from '@angular/forms';
+import { HttpClientModule } from '@angular/common/http';
+import { ToastrModule } from 'ngx-toastr';
 
 
 
@@ -66,6 +69,11 @@ import { NavtabsComponent } from './navigation/navtabs/navtabs.component';
     BrowserAnimationsModule,
     MaterialModule,
     FlexLayoutModule,
+
+    ReactiveFormsModule,
+    HttpClientModule,
+    ToastrModule.forRoot(),
+
     
   ],
   providers: [],

@@ -7,11 +7,36 @@
     Home
     </a>
 
-    <a mat-tab-link routerLink="/accomodation" 
-    routerLinkActive #accomodation="routerLinkActive" 
-    [active]="accomodation.isActive">
-    Accomodation
+    <!-- Ovde smo koristili Nested menu iz angular material -->
+    <a mat-tab-link routerLink="/accommodation" routerLinkActive 
+    #accomodation="routerLinkActive" 
+    [active]="accomodation.isActive" class="acmd"> 
+     <!-- <button mat-button [matMenuTriggerFor]="menu">Accomodation</button>
+    <mat-menu #menu="matMenu">
+      <button mat-menu-item>rooms</button>
+      <button mat-menu-item>apartement</button>  
+    </mat-menu>-->
+    
+<button mat-button [matMenuTriggerFor]="acmdt"> Accommodation</button>
+<mat-menu #acmdt="matMenu">
+  <button mat-menu-item [matMenuTriggerFor]="rooms" routerLink="/rooms" color="primary">Rooms</button>
+  <button mat-menu-item [matMenuTriggerFor]="apartments">Apartments</button>
+  <button mat-menu-item>Log cabin</button>
+</mat-menu>
+<mat-menu #rooms="matMenu">
+  <button mat-menu-item>Single room</button>
+  <button mat-menu-item>Double room</button>
+  <button mat-menu-item>Queen room</button>
+</mat-menu>
+<mat-menu #apartments="matMenu">
+  <button mat-menu-item>Studio apartmens</button>
+  <button mat-menu-item>Micro apartments</button>
+</mat-menu>
     </a>
+    
+
+
+
 
     <a mat-tab-link routerLink="/foodbeverage" 
     routerLinkActive #foodbeverage="routerLinkActive" 

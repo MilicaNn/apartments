@@ -26,7 +26,8 @@
             ],
             "styles": [
               "src/styles.css",
-              "src/my-theme.scss"
+              "src/my-theme.scss",
+              "node_modules/ngx-toastr/toastr.css"
             ],
             "scripts": []
           },

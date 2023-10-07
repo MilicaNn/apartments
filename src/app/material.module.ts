@@ -13,6 +13,16 @@ import {MatButtonToggleModule} from '@angular/material/button-toggle';
 import {MatTabsModule} from '@angular/material/tabs';
 import {MatCardModule} from '@angular/material/card';
 
+import {MatInputModule} from '@angular/material/input';
+import {MatSelectModule} from '@angular/material/select';
+import {MatRadioModule} from '@angular/material/radio';
+import {MatCheckboxModule} from '@angular/material/checkbox';
+import {MatTableModule} from '@angular/material/table';
+import {MatPaginatorModule} from '@angular/material/paginator';
+import {MatSortModule} from '@angular/material/sort';
+import {MatDialogModule} from '@angular/material/dialog';
+
+import {MatMenuModule} from '@angular/material/menu';
 
 
 
@@ -26,6 +36,16 @@ import {MatCardModule} from '@angular/material/card';
             MatButtonToggleModule,
             MatTabsModule,
             MatCardModule,
+
+            MatInputModule,
+            MatSelectModule,
+            MatRadioModule,
+            MatCheckboxModule,
+            MatTableModule,
+            MatPaginatorModule,
+            MatSortModule,
+            MatDialogModule,
+            MatMenuModule,
     
     
     ],
@@ -37,7 +57,19 @@ import {MatCardModule} from '@angular/material/card';
              MatListModule,
              MatButtonToggleModule,
              MatTabsModule,
-             MatCardModule
+             MatCardModule,
+
+             MatInputModule,
+             MatSelectModule,
+             MatRadioModule,
+             MatCheckboxModule,
+             MatTableModule,
+             MatPaginatorModule,
+             MatSortModule,
+             MatDialogModule,
+             MatMenuModule,
+
+
 
 
              
