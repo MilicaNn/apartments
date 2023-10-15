@@ -1,0 +1,26 @@
+.InPageGallery{
+    margin: 30px;
+}
+.ShrinkContainer2 {
+    width: 75%;
+    position: relative;
+    margin: 0 auto;
+    
+}
+.RoomImage {
+    display: inline-block;
+    width: calc(33.33% - 30px);
+    cursor: pointer;
+    vertical-align: top;
+    text-align: center;
+    margin: 15px;
+    margin-bottom: 30px;
+    position: relative;
+}
+
+img{
+    width: 400px;
+    height: 300px;
+    border-radius: 10px;
+    
+}

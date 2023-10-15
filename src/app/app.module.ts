@@ -31,52 +31,58 @@ import { HeaderComponent } from './navigation/header/header.component';
 import { SidenavListComponent } from './navigation/sidenav-list/sidenav-list.component';
 import { NavtabsComponent } from './navigation/navtabs/navtabs.component';
 
+import { NgImageSliderModule } from 'ng-image-slider';
+
+
 import { ReactiveFormsModule } from '@angular/forms';
 import { HttpClientModule } from '@angular/common/http';
 import { ToastrModule } from 'ngx-toastr';
+import { CarouselModule } from "./carousel/carousel.module";
+
+
+
 
 
 
 @NgModule({
-  declarations: [
-    AppComponent,
-    AccomodationComponent,
-    RoomsComponent,
-    FoodBeverageComponent,
-    RestaurantComponent,
-    BarsComponent,
-    LifestyleComponent,
-    WelnessAndSpaComponent,
-    ResortActivitesComponent,
-    ExperiencesComponent,
-    ExcursionsComponent,
-    WeddingsComponent,
-    ThaiWeddingsComponent,
-    WesternWeddingsComponent,
-    CelebrationsComponent,
-    OffersComponent,
-    AuthComponent,
-    SigninComponent,
-    SignupComponent,
-    HomeComponent,
-    HeaderComponent,
-    SidenavListComponent,
-    NavtabsComponent
-  ],
-  imports: [
-    BrowserModule,
-    AppRoutingModule,
-    BrowserAnimationsModule,
-    MaterialModule,
-    FlexLayoutModule,
-
-    ReactiveFormsModule,
-    HttpClientModule,
-    ToastrModule.forRoot(),
-
-    
-  ],
-  providers: [],
-  bootstrap: [AppComponent]
+    declarations: [
+        AppComponent,
+        AccomodationComponent,
+        RoomsComponent,
+        FoodBeverageComponent,
+        RestaurantComponent,
+        BarsComponent,
+        LifestyleComponent,
+        WelnessAndSpaComponent,
+        ResortActivitesComponent,
+        ExperiencesComponent,
+        ExcursionsComponent,
+        WeddingsComponent,
+        ThaiWeddingsComponent,
+        WesternWeddingsComponent,
+        CelebrationsComponent,
+        OffersComponent,
+        AuthComponent,
+        SigninComponent,
+        SignupComponent,
+        HomeComponent,
+        HeaderComponent,
+        SidenavListComponent,
+        NavtabsComponent,
+    ],
+    providers: [],
+    bootstrap: [AppComponent],
+    imports: [
+        BrowserModule,
+        AppRoutingModule,
+        BrowserAnimationsModule,
+        MaterialModule,
+        FlexLayoutModule,
+        NgImageSliderModule,
+        ReactiveFormsModule,
+        HttpClientModule,
+        ToastrModule.forRoot(),
+        CarouselModule
+    ]
 })
 export class AppModule { }

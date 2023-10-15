@@ -1,3 +1,13 @@
 .toolbar-flex{
     flex: 1 0.5 auto;
 }
+.mat-tab-header-inactive-hover-label-text-color{
+    color: red;
+}
+.navtabs-container{
+    color: black !important;
+    font-weight: 200;
+    font-style: italic;
+    background-image: linear-gradient(to top, #0D47A1, #90CAF9 );
+    width: 100%;
+}
