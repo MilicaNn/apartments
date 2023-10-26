@@ -38,6 +38,7 @@ import { ReactiveFormsModule } from '@angular/forms';
 import { HttpClientModule } from '@angular/common/http';
 import { ToastrModule } from 'ngx-toastr';
 import { CarouselModule } from "./carousel/carousel.module";
+import { FooterComponent } from './navigation/footer/footer.component';
 
 
 
@@ -69,6 +70,7 @@ import { CarouselModule } from "./carousel/carousel.module";
         HeaderComponent,
         SidenavListComponent,
         NavtabsComponent,
+        FooterComponent
     ],
     providers: [],
     bootstrap: [AppComponent],

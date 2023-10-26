@@ -11,3 +11,18 @@
     background-image: linear-gradient(to top, #0D47A1, #90CAF9 );
     width: 100%;
 }
+
+.fixed{
+    position: fixed;
+    width: 100%;
+    height: 60px;
+    font-size: 25px;
+    transition: 0.2s linear;
+    top: 163px;
+    z-index: 1200;
+}
+.nofixed{
+    position: static;
+    transition: 0.2s linear;
+    top: -50px;
+}

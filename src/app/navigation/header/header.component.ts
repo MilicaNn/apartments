@@ -1,4 +1,4 @@
-import { Component, OnInit, EventEmitter, Output } from '@angular/core';
+import { Component, OnInit, EventEmitter, Output, HostListener } from '@angular/core';
 
 @Component({
   selector: 'app-header',
@@ -17,6 +17,17 @@ ngOnInit(){}
 
 onToggleOpenSidenav(){
   this.SideNavigationToggle.emit();
+
+}
+navbarfixed:boolean=false;
+  
+  @HostListener('window:scroll',['$event']) onscroll(){
+    if(window.scrollY>100){
+      this.navbarfixed=true;
+    }
+  else{
+    this.navbarfixed=false;
+  }
 
 }
 }

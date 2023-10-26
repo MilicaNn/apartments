@@ -9,26 +9,37 @@ export class RoomsComponent {
   images = [
     {
       imageSrc:
+        'http://localhost:4200/assets/img/single/single.jpg',
+      imageAlt: 'single1',
+    },
+    {
+      imageSrc:
+        'http://localhost:4200/assets/img/single/singleroom.avif',
+      imageAlt: 'single2',
+    },
+    {
+      imageSrc:
+        'http://localhost:4200/assets/img/single/singleroomm.jpg',
+      imageAlt: 'single3',
+    },
+  ]
+  images2 = [
+    {
+      imageSrc:
+        'http://localhost:4200/assets/img/double/double.jpg',
+      imageAlt: 'double1',
+    },
+    {
+      imageSrc:
         'http://localhost:4200/assets/img/double/doublerooms1.jpg',
-      imageAlt: 'nature1',
+      imageAlt: 'double2',
     },
     {
       imageSrc:
         'http://localhost:4200/assets/img/double/doublerooms2.jpg',
-      imageAlt: 'nature2',
-    },
-    {
-      imageSrc:
-        'http://localhost:4200/assets/img/double/doublerooms3.jpg',
-      imageAlt: 'person1',
-    },
-    {
-      imageSrc:
-        'http://localhost:4200/assets/img/double/doublerooms4.jpg',
-      imageAlt: 'person2',
+      imageAlt: 'double3',
     },
   ]
-
  
 }
 

@@ -1,4 +1,4 @@
-<div class="navtabs-container">
+<div class="navtabs-container" (scroll)="onscroll()" [ngClass]="navbarfixed?'fixed':'nofixed'">
 <nav mat-tab-nav-bar fxFlex fxLayout fxLayoutAlign="center center">
     
     <a mat-tab-link routerLink="/" 
@@ -18,17 +18,15 @@
 <button mat-tab-link [matMenuTriggerFor]="acmdt"> Accommodation</button>
 <mat-menu #acmdt="matMenu">
   <button mat-menu-item [matMenuTriggerFor]="rooms" routerLink="/rooms" color="primary">Rooms</button>
-  <button mat-menu-item [matMenuTriggerFor]="apartments" routerLink="/apartments" >Apartments</button>
+  <button mat-menu-item [matMenuTriggerFor]="apartments" >Apartments</button>
   <button mat-menu-item routerLink="/logCabin">Log cabin</button>
 </mat-menu>
 <mat-menu #rooms="matMenu">
   <button mat-menu-item routerLink="/single" >Single room</button>
   <button mat-menu-item routerLink="/double" >Double room</button>
-  <button mat-menu-item routerLink="/queen" >Queen room</button>
 </mat-menu>
 <mat-menu #apartments="matMenu">
   <button mat-menu-item routerLink="/studio" >Studio apartmens</button>
-  <button mat-menu-item routerLink="/micro" >Micro apartments</button>
 </mat-menu>
 </a>
     <a mat-tab-link routerLink="/foodbeverage" 

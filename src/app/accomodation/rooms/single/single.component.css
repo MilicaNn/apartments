@@ -4,8 +4,7 @@
 .ShrinkContainer2 {
     width: 75%;
     position: relative;
-    margin: 0 auto;
-    
+    margin: 80px auto; 
 }
 .RoomImage {
     display: inline-block;
@@ -14,13 +13,73 @@
     vertical-align: top;
     text-align: center;
     margin: 15px;
-    margin-bottom: 30px;
+    margin-bottom: 40px;
     position: relative;
+    transition: transform .2s;
+    /* background-image: linear-gradient(to top, #4d82d1, #c6ddf0); */
+    border-radius: 10px;
+}
+.RoomImage:hover {
+    transform: scale(1.1);
+    background-image: linear-gradient(to top, #4d82d1, #c6ddf0);
+
 }
 
 img{
+    margin: 10px auto;
     width: 400px;
     height: 300px;
     border-radius: 10px;
     
 }
+h2{
+    
+    text-align: center;
+    font-size: 90px;
+    font-family: 'Dancing Script', cursive;
+    text-shadow: 10px 10px #d3e4ff;
+}
+.textcontainer{
+    font-size: 21px;
+    text-align: center;
+    margin: 70px auto;
+}
+
+.containerIcons{
+    text-align: center;
+   
+}
+.containerIcons > ul{
+    list-style-type: none;
+    margin-left: 20px;
+    text-align: center;
+
+}
+.containerIcons > ul> li{
+
+    width: 24.33%;
+    float: left;
+    font-size: 20px;
+    line-height: 25px;
+    text-align: center;
+
+}
+.text-item{
+    margin-top: 400px;
+    background-color: #ccddf7;
+    text-align: center;
+}
+.material-symbols-outlined{
+    font-size: 50px;
+}
+
+.hd{
+    font-family: 'Dancing Script', cursive;
+    text-shadow: 7px 7px #d2e1f8;
+    text-align: center;
+    font-size: 40px;
+    margin-bottom: 40px;
+    font-weight: bold;
+    
+}
+
