@@ -70,7 +70,8 @@ import { FooterComponent } from './navigation/footer/footer.component';
         HeaderComponent,
         SidenavListComponent,
         NavtabsComponent,
-        FooterComponent
+        FooterComponent,
+        
     ],
     providers: [],
     bootstrap: [AppComponent],
@@ -84,7 +85,12 @@ import { FooterComponent } from './navigation/footer/footer.component';
         ReactiveFormsModule,
         HttpClientModule,
         ToastrModule.forRoot(),
-        CarouselModule
-    ]
+        CarouselModule,
+        
+    ],
+    exports: [
+        HeaderComponent,
+      FooterComponent,
+  ],
 })
-export class AppModule { }
+export class AppModule {}

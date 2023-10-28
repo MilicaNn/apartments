@@ -2,11 +2,9 @@ import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 import { AccomodationComponent } from './accomodation/accomodation.component';
 import { ApartmentsComponent } from './accomodation/apartments/apartments.component';
-import { MicroComponent } from './accomodation/apartments/micro/micro.component';
 import { StudioComponent } from './accomodation/apartments/studio/studio.component';
 import { LogCabinComponent } from './accomodation/log-cabin/log-cabin.component';
 import { DoubleComponent } from './accomodation/rooms/double/double.component';
-import { QueenComponent } from './accomodation/rooms/queen/queen.component';
 import { RoomsComponent } from './accomodation/rooms/rooms.component';
 import { SingleComponent } from './accomodation/rooms/single/single.component';
 import { SigninComponent } from './auth/signin/signin.component';
@@ -38,14 +36,11 @@ const routes: Routes = [
 
   {path:'apartments', component:ApartmentsComponent},
   {path:'studio', component:StudioComponent},
-  {path:'micro', component:MicroComponent},
   {path:'logCabin', component:LogCabinComponent},
 
   {path:'rooms', component:RoomsComponent},
   {path:'single', component:SingleComponent},
   {path:'double', component:DoubleComponent},
-  {path:'queen', component:QueenComponent}
-
 ];
 
 //po definiciji importujemo i exxportujemo RouterModule

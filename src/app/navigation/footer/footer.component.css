@@ -1,30 +1,8 @@
-/* .container-footer{
-    background-color: rgb(169, 221, 255);
-    width: 100%;
-    height: 250px;
-    margin-top: 15%;
-    display: inline-block;
-    cursor: pointer;
-}
-.row{  
-    background-color: rgb(75, 233, 136);
-    width: 100%;
-    height: 220px;
-    
-}
-.contfoot{
-    background-color: rgb(122, 122, 238);
-    width: 300px;
-    height: 200px;
-    float: left;
-    border: 2px;
-    
-    
-}  */
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    
 }
 .container{
     max-width: 1500px;
@@ -41,13 +19,16 @@ ul{
     list-style: none;
 }
 .footer{
-    background-color: #666b79;
-    padding: 50px 0;
+    /* #667379; */
+    background-color: #667379;
+    padding: 20px 0;
+    margin-top: 20%;
 
 }
 .footer-col{
+    padding: 0px 13px;
     width: 25%;
-    padding: 0 15px;
+    margin-top: 10px;
 }
 .footer-col h4{
     font-size: 22px;
@@ -128,3 +109,5 @@ ul{
     font-size: 19px;
     margin-right: 15px;
 }
+
+

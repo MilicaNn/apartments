@@ -16,70 +16,95 @@
     margin-bottom: 40px;
     position: relative;
     transition: transform .2s;
-    /* background-image: linear-gradient(to top, #4d82d1, #c6ddf0); */
     border-radius: 10px;
 }
 .RoomImage:hover {
-    transform: scale(1.1);
-    background-image: linear-gradient(to top, #4d82d1, #c6ddf0);
-
+    transform: scale(1.2);
+    /* background-image: linear-gradient(to top, #4d82d1, #c6ddf0); */
 }
-
-img{
+.RoomImage>img{
     margin: 10px auto;
     width: 400px;
     height: 300px;
     border-radius: 10px;
-    
 }
-h2{
-    
+.container-h2 p{
     text-align: center;
     font-size: 90px;
     font-family: 'Dancing Script', cursive;
-    text-shadow: 10px 10px #d3e4ff;
 }
-.textcontainer{
-    font-size: 21px;
+.textcontainer p{
+    font-size: 25px;
     text-align: center;
     margin: 70px auto;
+    color: rgb(0, 0, 0);
+    padding: 10% 0;
 }
+.single-container{
+    padding-top: 10%;
+}
+/* image css */
+.container-image{
+    height: 560px;
+}
+.container-image>img{
+    width: 100%;
+    height: 560px;
+    display: inline-block;
+}
+.text-box{
+    text-align: center;
+    transform: translateY(-270%);
+    left: 3%;
+    position: relative;
+    width: 100%;
+}
+.cont-text-box>h3{
+    font-size: 80px;
+    line-height: 40px;
+    letter-spacing: 7.5px;
+    margin-bottom: 20px;
+    color: rgb(0, 0, 0);
 
+}
+.cont-text-box>p{
+    font-size: 50px;
+    color: rgb(0, 0, 0);
+    letter-spacing: 7.5px;
+    font-weight: bold;
+}
+/* iconss */
 .containerIcons{
     text-align: center;
-   
+    padding: 10% 0% 5% 0%;
 }
+
 .containerIcons > ul{
     list-style-type: none;
     margin-left: 20px;
     text-align: center;
-
 }
-.containerIcons > ul> li{
 
+.containerIcons > ul> li{
     width: 24.33%;
     float: left;
     font-size: 20px;
     line-height: 25px;
     text-align: center;
-
 }
-.text-item{
-    margin-top: 400px;
+ .text-item{
+    margin-top: 40px;
     background-color: #ccddf7;
     text-align: center;
 }
-.material-symbols-outlined{
-    font-size: 50px;
+ .material-symbols-outlined{
+    font-size: 25px;
 }
-
 .hd{
     font-family: 'Dancing Script', cursive;
-    text-shadow: 7px 7px #d2e1f8;
+    /* text-shadow: 7px 7px #d2e1f8; */
     text-align: center;
     font-size: 40px;
     margin-bottom: 40px;
-    font-weight: bold;
-    
+    font-weight: bold; 
 }
-

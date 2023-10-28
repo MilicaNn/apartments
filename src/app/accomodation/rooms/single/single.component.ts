@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { FooterComponent } from 'src/app/navigation/footer/footer.component';
 
 
 
@@ -7,8 +8,6 @@ import { Component } from '@angular/core';
   templateUrl: './single.component.html',
   styleUrls: ['./single.component.css']
 })
-
-
 
 
 export class SingleComponent {
