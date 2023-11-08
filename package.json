@@ -23,6 +23,7 @@
     "@angular/router": "^16.2.1",
     "@material/image-list": "^15.0.0-canary.bc9ae6c9c.0",
     "hammerjs": "^2.0.8",
+    "lightgallery": "^2.7.2",
     "ng-image-slider": "^7.0.1",
     "ngx-toastr": "^17.0.2",
     "rxjs": "~7.8.1",

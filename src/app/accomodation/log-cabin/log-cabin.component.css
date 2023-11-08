@@ -1,0 +1,111 @@
+
+.InPageGallery{
+    margin: 30px;
+}
+.ShrinkContainer2 {
+    width: 75%;
+    position: relative;
+    margin: 80px auto; 
+}
+.RoomImage {
+    display: inline-block;
+    width: calc(33.33% - 30px);
+    cursor: pointer;
+    vertical-align: top;
+    text-align: center;
+    margin: 15px;
+    margin-bottom: 40px;
+    position: relative;
+    transition: transform .2s;
+    border-radius: 10px;
+}
+.RoomImage:hover {
+    transform: scale(1.2);
+    /* background-image: linear-gradient(to top, #4d82d1, #c6ddf0); */
+}
+.RoomImage>img{
+    margin: 10px auto;
+    width: 400px;
+    height: 300px;
+    border-radius: 10px;
+}
+.container-h2 p{
+    text-align: center;
+    font-size: 90px;
+    font-family: 'Dancing Script', cursive;
+}
+.textcontainer p{
+    font-size: 25px;
+    text-align: center;
+    margin: 70px auto;
+    color: rgb(0, 0, 0);
+    padding: 10% 0;
+}
+.single-container{
+    padding-top: 10%;
+}
+/* image css */
+.container-image{
+    height: 560px;
+}
+.container-image>img{
+    width: 100%;
+    height: 560px;
+    display: inline-block;
+}
+.text-box{
+    text-align: center;
+    transform: translateY(-270%);
+    left: 3%;
+    position: relative;
+    width: 100%;
+}
+.cont-text-box>h3{
+    font-size: 80px;
+    line-height: 40px;
+    letter-spacing: 7.5px;
+    margin-bottom: 20px;
+    color: rgb(0, 0, 0);
+
+}
+.cont-text-box>p{
+    font-size: 50px;
+    color: rgb(0, 0, 0);
+    letter-spacing: 7.5px;
+    font-weight: bold;
+}
+/* iconss */
+.containerIcons{
+    text-align: center;
+    padding: 10% 0% 5% 0%;
+}
+
+.containerIcons > ul{
+    list-style-type: none;
+    margin-left: 20px;
+    text-align: center;
+}
+
+.containerIcons > ul> li{
+    width: 24.33%;
+    float: left;
+    font-size: 20px;
+    line-height: 25px;
+    text-align: center;
+}
+ .text-item{
+    margin-top: 40px;
+    background-color: #ccddf7;
+    text-align: center;
+}
+ .material-symbols-outlined{
+    font-size: 25px;
+}
+.hd{
+    font-family: 'Dancing Script', cursive;
+    /* text-shadow: 7px 7px #d2e1f8; */
+    text-align: center;
+    font-size: 40px;
+    margin-bottom: 40px;
+    font-weight: bold; 
+}

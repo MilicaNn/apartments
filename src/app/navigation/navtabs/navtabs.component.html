@@ -7,7 +7,7 @@
     Home
     </a>
 <!-- Ovde smo koristili Nested menu iz angular material -->
-<a mat-tab-link routerLink="/accommodation" routerLinkActive 
+<a mat-tab-link routerLink="/accomodation" routerLinkActive 
 #accomodation="routerLinkActive" 
 [active]="accomodation.isActive" class="acmd"> 
  <!-- <button mat-button [matMenuTriggerFor]="menu">Accomodation</button>
@@ -17,9 +17,9 @@
   </mat-menu>-->
 <button mat-tab-link [matMenuTriggerFor]="acmdt"> Accommodation</button>
 <mat-menu #acmdt="matMenu">
-  <button mat-menu-item [matMenuTriggerFor]="rooms" routerLink="/rooms" color="primary">Rooms</button>
+  <button mat-menu-item [matMenuTriggerFor]="rooms"  color="primary">Rooms</button>
   <button mat-menu-item [matMenuTriggerFor]="apartments" >Apartments</button>
-  <button mat-menu-item routerLink="/logCabin">Log cabin</button>
+  <button mat-menu-item [matMenuTriggerFor]="logcabin">Log cabin</button>
 </mat-menu>
 <mat-menu #rooms="matMenu">
   <button mat-menu-item routerLink="/single" >Single room</button>
@@ -28,6 +28,11 @@
 <mat-menu #apartments="matMenu">
   <button mat-menu-item routerLink="/studio" >Studio apartmens</button>
 </mat-menu>
+<mat-menu #logcabin="matMenu">
+  <button mat-menu-item routerLink="/logCabin" >Attic log cabin</button>
+  <button mat-menu-item routerLink="/logCabin" >First floor log cabin</button>
+</mat-menu>
+
 </a>
     <a mat-tab-link routerLink="/foodbeverage" 
     routerLinkActive #foodbeverage="routerLinkActive" 

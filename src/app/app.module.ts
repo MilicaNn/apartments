@@ -11,16 +11,8 @@ import { MaterialModule } from './material.module';
 import { AccomodationComponent } from './accomodation/accomodation.component';
 import { RoomsComponent } from './accomodation/rooms/rooms.component';
 import { FoodBeverageComponent } from './food-beverage/food-beverage.component';
-import { RestaurantComponent } from './food-beverage/restaurant/restaurant.component';
-import { BarsComponent } from './food-beverage/bars/bars.component';
 import { LifestyleComponent } from './lifestyle/lifestyle.component';
-import { WelnessAndSpaComponent } from './lifestyle/welness-and-spa/welness-and-spa.component';
-import { ResortActivitesComponent } from './lifestyle/resort-activites/resort-activites.component';
-import { ExperiencesComponent } from './lifestyle/experiences/experiences.component';
-import { ExcursionsComponent } from './lifestyle/excursions/excursions.component';
 import { WeddingsComponent } from './weddings/weddings.component';
-import { ThaiWeddingsComponent } from './weddings/thai-weddings/thai-weddings.component';
-import { WesternWeddingsComponent } from './weddings/western-weddings/western-weddings.component';
 import { CelebrationsComponent } from './celebrations/celebrations.component';
 import { OffersComponent } from './offers/offers.component';
 import { AuthComponent } from './auth/auth.component';
@@ -32,6 +24,7 @@ import { SidenavListComponent } from './navigation/sidenav-list/sidenav-list.com
 import { NavtabsComponent } from './navigation/navtabs/navtabs.component';
 
 import { NgImageSliderModule } from 'ng-image-slider';
+import { LightgalleryModule } from 'lightgallery/angular';
 
 
 import { ReactiveFormsModule } from '@angular/forms';
@@ -39,6 +32,14 @@ import { HttpClientModule } from '@angular/common/http';
 import { ToastrModule } from 'ngx-toastr';
 import { CarouselModule } from "./carousel/carousel.module";
 import { FooterComponent } from './navigation/footer/footer.component';
+import { ApartmentsComponent } from './accomodation/apartments/apartments.component';
+import { StudioComponent } from './accomodation/apartments/studio/studio.component';
+import { LogCabinComponent } from './accomodation/log-cabin/log-cabin.component';
+import { FirstComponent } from './accomodation/log-cabin/first/first.component';
+import { DoubleComponent } from './accomodation/rooms/double/double.component';
+import { SingleComponent } from './accomodation/rooms/single/single.component';
+import { UpdatrpopupComponent } from './updatrpopup/updatrpopup.component';
+import { UserlistingComponent } from './userlisting/userlisting.component';
 
 
 
@@ -51,16 +52,8 @@ import { FooterComponent } from './navigation/footer/footer.component';
         AccomodationComponent,
         RoomsComponent,
         FoodBeverageComponent,
-        RestaurantComponent,
-        BarsComponent,
         LifestyleComponent,
-        WelnessAndSpaComponent,
-        ResortActivitesComponent,
-        ExperiencesComponent,
-        ExcursionsComponent,
         WeddingsComponent,
-        ThaiWeddingsComponent,
-        WesternWeddingsComponent,
         CelebrationsComponent,
         OffersComponent,
         AuthComponent,
@@ -71,6 +64,15 @@ import { FooterComponent } from './navigation/footer/footer.component';
         SidenavListComponent,
         NavtabsComponent,
         FooterComponent,
+        ApartmentsComponent,
+        StudioComponent,
+        LogCabinComponent,
+        FirstComponent,
+        DoubleComponent,
+        SingleComponent,
+        UpdatrpopupComponent,
+        UserlistingComponent,
+        
         
     ],
     providers: [],
@@ -86,11 +88,13 @@ import { FooterComponent } from './navigation/footer/footer.component';
         HttpClientModule,
         ToastrModule.forRoot(),
         CarouselModule,
+        LightgalleryModule,
         
     ],
     exports: [
         HeaderComponent,
       FooterComponent,
+      LightgalleryModule,
   ],
 })
 export class AppModule {}

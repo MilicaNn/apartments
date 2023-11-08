@@ -1,9 +1,11 @@
 import { Component } from '@angular/core';
-
+import lgZoom from 'lightgallery/plugins/zoom';
+import { BeforeSlideDetail } from 'lightgallery/lg-events';
 @Component({
   selector: 'app-studio',
   templateUrl: './studio.component.html',
-  styleUrls: ['./studio.component.css']
+  styleUrls: ['./studio.component.css'],
+
 })
 export class StudioComponent {
 
