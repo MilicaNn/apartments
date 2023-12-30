@@ -1,11 +1,12 @@
+.header{
+    background-color: #2c2c2c;
+}
 .logo-container{
     width: 100%;
-    margin-right: 40px;
-  
-    
+    margin-right: 40px;  
 }
 .logo{
-    width: 400px;
+    width: 350px;
 
 }
 .mat-toolbar{

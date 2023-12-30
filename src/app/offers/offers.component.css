@@ -1,0 +1,32 @@
+.grid{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 50px;
+}
+input{
+    outline: none;
+    border: none;
+    width: 100%;
+}
+.book{
+    padding: 40px 5px;
+    background: #282834;
+    color: #fff;
+}
+h1{
+    font-family: serif;
+}
+.book h1{
+    font-family: serif;
+    font-size: 28px;
+}
+.book h1 span{
+    color: rgb(64, 139, 224);
+}
+.book input{
+    padding: 20px;
+}
+.book input:nth-last-child(1){
+    background: rgb(64, 139, 224);
+    color: #fff;
+}

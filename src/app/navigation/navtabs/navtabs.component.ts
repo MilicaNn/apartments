@@ -8,6 +8,7 @@ import { Component, HostListener } from '@angular/core';
 })
 export class NavtabsComponent {
  
+  shouldUseDynamicColor: boolean = true;
   navbarfixed:boolean=false;
   
   @HostListener('window:scroll',['$event']) onscroll(){

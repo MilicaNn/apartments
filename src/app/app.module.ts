@@ -8,12 +8,13 @@ import { FlexLayoutModule } from '@angular/flex-layout';
 
 import{BrowserAnimationsModule} from '@angular/platform-browser/animations'
 import { MaterialModule } from './material.module';
+
+import{ AccordionModule } from 'ngx-bootstrap/accordion';
+import{ModalModule} from 'ngx-bootstrap/modal';
+
 import { AccomodationComponent } from './accomodation/accomodation.component';
 import { RoomsComponent } from './accomodation/rooms/rooms.component';
-import { FoodBeverageComponent } from './food-beverage/food-beverage.component';
-import { LifestyleComponent } from './lifestyle/lifestyle.component';
-import { WeddingsComponent } from './weddings/weddings.component';
-import { CelebrationsComponent } from './celebrations/celebrations.component';
+import { ContactComponent } from './contact/contact.component';
 import { OffersComponent } from './offers/offers.component';
 import { AuthComponent } from './auth/auth.component';
 import { SigninComponent } from './auth/signin/signin.component';
@@ -38,10 +39,15 @@ import { LogCabinComponent } from './accomodation/log-cabin/log-cabin.component'
 import { FirstComponent } from './accomodation/log-cabin/first/first.component';
 import { DoubleComponent } from './accomodation/rooms/double/double.component';
 import { SingleComponent } from './accomodation/rooms/single/single.component';
-import { UpdatrpopupComponent } from './updatrpopup/updatrpopup.component';
 import { UserlistingComponent } from './userlisting/userlisting.component';
+import { GalleryComponent } from './gallery/gallery.component';
 
+import { FullCalendarModule } from '@fullcalendar/angular';
+import { CalendarModule, DatePickerModule, TimePickerModule, DateRangePickerModule, DateTimePickerModule } from '@syncfusion/ej2-angular-calendars';
+import {MatNativeDateModule} from '@angular/material/core';
+import { MatButtonToggleModule } from '@angular/material/button-toggle';
 
+import {MatDatepickerModule} from '@angular/material/datepicker';
 
 
 
@@ -51,10 +57,8 @@ import { UserlistingComponent } from './userlisting/userlisting.component';
         AppComponent,
         AccomodationComponent,
         RoomsComponent,
-        FoodBeverageComponent,
-        LifestyleComponent,
-        WeddingsComponent,
-        CelebrationsComponent,
+        GalleryComponent,
+        ContactComponent,
         OffersComponent,
         AuthComponent,
         SigninComponent,
@@ -70,7 +74,6 @@ import { UserlistingComponent } from './userlisting/userlisting.component';
         FirstComponent,
         DoubleComponent,
         SingleComponent,
-        UpdatrpopupComponent,
         UserlistingComponent,
         
         
@@ -89,6 +92,17 @@ import { UserlistingComponent } from './userlisting/userlisting.component';
         ToastrModule.forRoot(),
         CarouselModule,
         LightgalleryModule,
+        FullCalendarModule,
+        AccordionModule,
+        ModalModule.forRoot(),
+        CalendarModule, DatePickerModule, TimePickerModule, DateRangePickerModule, DateTimePickerModule,
+        MatNativeDateModule,
+        MatButtonToggleModule,
+        MatDatepickerModule
+       
+
+        
+    
         
     ],
     exports: [

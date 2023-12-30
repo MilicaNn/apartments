@@ -16,7 +16,7 @@ export class CarouselComponent {
   @Input() indicators=true;
   @Input() controls=true;
   @Input() autoSlide=false;
-  @Input() slideInterval=4000;
+  @Input() slideInterval=5000;
   selectedIndex=0;
 
   ngOnInit():void{

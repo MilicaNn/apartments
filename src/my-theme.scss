@@ -11,7 +11,7 @@ $apartment-primary: (
   400 : #a1bff5,
   500 : #c1ddff,
   600 : #8eb6e7,
-  700 : #a9d0ff,
+  700 : #2382f7,
   800 : #bedbff,
   900 : #c6e0ff,
   A100 : #ffffff,
@@ -25,8 +25,8 @@ $apartment-primary: (
       300 : #000000,
       400 : #000000,
       500 : #000000,
-      600 : #000000,
-      700 : #000000,
+      600 : #2382f7,
+      700 : #2382f7,
       800 : #000000,
       900 : #000000,
       A100 : #000000,
@@ -142,7 +142,7 @@ body {
 
 .navtabs-container{
   background: mat.get-color-from-palette($apartment-primary, 200);
- 
+  color: mat.get-color-from-palette($apartment-primary, 700);
  }
 
 .mdc-list-item.mdc-list-item--with-one-line:hover{

@@ -10,25 +10,21 @@ import { RoomsComponent } from './accomodation/rooms/rooms.component';
 import { SingleComponent } from './accomodation/rooms/single/single.component';
 import { SigninComponent } from './auth/signin/signin.component';
 import { SignupComponent } from './auth/signup/signup.component';
-import { CelebrationsComponent } from './celebrations/celebrations.component';
-import { FoodBeverageComponent } from './food-beverage/food-beverage.component';
+import { GalleryComponent } from './gallery/gallery.component';
 import { HomeComponent } from './home/home.component';
-import { LifestyleComponent } from './lifestyle/lifestyle.component';
+import { ContactComponent } from './contact/contact.component';
 import { OffersComponent } from './offers/offers.component';
-import { WeddingsComponent } from './weddings/weddings.component';
 
 //ovde upisujemo putanje tj rute ka nasim komponentama
 const routes: Routes = [
   {path:'accomodation', component:AccomodationComponent},
-  {path:'celebrations', component:CelebrationsComponent},
-  {path:'food-beverage', component:FoodBeverageComponent},
   //ovde smo napravili novu putanju da bi mogi da koristimo zbog specijalnog naziva
   //food - beverage
-  {path: 'foodbeverage', 
-   redirectTo:'food-beverage',
-   pathMatch:'full'},
-  {path:'lifestyle', component:LifestyleComponent},
-  {path:'weddings', component:WeddingsComponent},
+  // {path: 'foodbeverage', 
+  //  redirectTo:'food-beverage',
+  //  pathMatch:'full'},
+  {path:'gallery', component:GalleryComponent},
+  {path:'contact', component:ContactComponent},
   {path:'offers', component:OffersComponent},
   {path:'signin', component:SigninComponent},
   {path:'signup', component:SignupComponent},
