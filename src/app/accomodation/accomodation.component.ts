@@ -12,16 +12,7 @@ export class AccomodationComponent {
         'http://localhost:4200/assets/img/single/single.jpg',
       imageAlt: 'single1',
     },
-    {
-      imageSrc:
-        'http://localhost:4200/assets/img/single/singleroom.avif',
-      imageAlt: 'single2',
-    },
-    {
-      imageSrc:
-        'http://localhost:4200/assets/img/single/singleroomm.jpg',
-      imageAlt: 'single3',
-    },
+ 
   ]
   images2 = [
     {
@@ -80,19 +71,26 @@ export class AccomodationComponent {
   images4 = [
     {
       imageSrc:
-      'http://localhost:4200/assets/img/triple/st4.png',
+      'http://localhost:4200/assets/img2/logUp.jpg',
       imageAlt: 'single1',
     },
     {
       imageSrc:
-        'http://localhost:4200/assets/img/single/singleroom.avif',
+        'http://localhost:4200/assets/img2/log12.jpg',
       imageAlt: 'single2',
     },
     {
       imageSrc:
-        'http://localhost:4200/assets/img/single/singleroomm.jpg',
-      imageAlt: 'single3',
+        'http://localhost:4200/assets/img2/log3.jpg',
+      imageAlt: 'single4',
     },
+    {
+      imageSrc:
+        'http://localhost:4200/assets/img2/log1.jpg',
+      imageAlt: 'single5',
+    },
+   
+   
   ]
  
 }
