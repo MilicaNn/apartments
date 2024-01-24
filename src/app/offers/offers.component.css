@@ -1,4 +1,4 @@
-.grid{
+/* .grid{
     display: grid;
     grid-template-columns: repeat(5, 1fr);
     gap: 50px;
@@ -29,4 +29,4 @@ h1{
 .book input:nth-last-child(1){
     background: rgb(64, 139, 224);
     color: #fff;
-}
+} */

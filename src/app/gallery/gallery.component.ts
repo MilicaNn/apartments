@@ -1,6 +1,5 @@
 import { Component } from '@angular/core';
-
-
+import { Routes } from '@angular/router';
 
 
 @Component({
@@ -11,3 +10,4 @@ import { Component } from '@angular/core';
 export class GalleryComponent {
 
 }
+
