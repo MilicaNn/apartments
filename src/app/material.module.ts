@@ -25,6 +25,7 @@ import {MatDialogModule} from '@angular/material/dialog';
 import {MatMenuModule} from '@angular/material/menu';
 
 import {MatGridListModule} from '@angular/material/grid-list';
+import {MatExpansionModule} from '@angular/material/expansion';
 
 
 
@@ -52,6 +53,8 @@ import {MatGridListModule} from '@angular/material/grid-list';
             MatDialogModule,
             MatMenuModule,
             MatGridListModule,
+            MatExpansionModule,
+          
             
            
     
@@ -77,6 +80,7 @@ import {MatGridListModule} from '@angular/material/grid-list';
              MatDialogModule,
              MatMenuModule,
              MatGridListModule,
+             MatExpansionModule,
 
 
 
