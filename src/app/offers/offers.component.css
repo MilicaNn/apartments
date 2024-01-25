@@ -52,6 +52,8 @@ body {
     max-width: 800px;
     margin: 0 auto;
     padding: 20px;
+    background-color: rgb(212, 238, 252);
+   padding-bottom: 150px;
 }
 
 .aboutSpa, .MedSpr, .Diseases {
@@ -101,7 +103,6 @@ a {
 a:hover {
     text-decoration: underline;
 }
-
 /* Stil za hiperlinkove unutar teksta */
 .text a {
     font-style: italic;
@@ -127,4 +128,12 @@ p{
 }
 .type{
     font-size: 26px;
+}
+
+.back{
+    background-repeat: no-repeat;
+    background-image: url('http://localhost:4200/assets/img2/spa.jpg');
+    background-size: cover;
+    margin-bottom: -380px;
+    background-attachment: fixed;
 }
