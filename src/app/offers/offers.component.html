@@ -108,13 +108,6 @@
         Within this complex, there is modern equipment for various forms of therapy: <br>
     </p>
     <br>
-    <!-- lista terapije -->
-    <div class="terapy">
-        <h2>List of Therapies</h2>
-        <ul class="ter">
-          <li *ngFor="let terapija of terapije">{{ terapija }}</li>
-        </ul>
-      </div> <br>
     <div class="mat-elevation-z8">
         <h2 class="table-heading"> The waters of this spa and the therapies applied in this specialized institution help with the following types of diseases:</h2>
         <table mat-table [dataSource]="dataSource">
@@ -155,6 +148,16 @@
     </p>
 <br>
 <br>
+  <!-- lista terapije -->
+  <div class="terapy">
+    <h2>List of Therapies</h2>
+    <ul class="ter">
+      <li *ngFor="let terapija of terapije">{{ terapija }}</li>
+    </ul>
+  </div> <br>
+  <div class="terapy">
+        <h2>Description of therapies, and subtypes of therapies</h2>
+  </div><br>
     <mat-accordion>
         <mat-expansion-panel (opened)="panelOpenState = true"
                              (closed)="panelOpenState = false">                
@@ -163,10 +166,36 @@
               <b>Hydrotherapy</b>
             </mat-panel-title>
           </mat-expansion-panel-header>
-          <p class="klas1">Description: The use of water in different forms (hot, cold, under pressure) for therapeutic purposes.</p>
+          <p class="klas1">Hydrotherapy is a therapeutic practice that uses water for a variety of purposes to improve a person's health and well-being. 
+            This type of therapy is often applied in spas and wellness centers,
+             and is used both for the treatment of certain conditions and for relaxation and improvement of the general state of the body.
+             <br><br><p class="type">Types of hydrotherapy:</p><br>
+            <b>Hot and Cold Compresses</b>
+            <br>The combination of hot and cold compresses can be used to reduce swelling, alleviate pain, and improve circulation.
+            Warm compresses relax muscles, while cold compresses reduce inflammation.
+            <br><br>
+            <b>Warm Bath</b>
+            <br>A warm bath has a relaxing effect on muscles and can help reduce stress and tension.
+             Adding specific ingredients such as sea salt or essential oils can enhance the therapeutic effect.
+            <br><br>
+            <b>Cold Shower</b> 
+            <br>A cold shower can be used to stimulate circulation, reduce fatigue, and increase alertness. 
+            This technique is often applied as part of a contrast treatment involving hot and cold water.
+            <br><br>
+            <b>Hydromassage</b>
+            <br>Hydromassage involves the use of water jets under pressure to provide a body massage. 
+            This can help relax muscles, improve circulation, and reduce stress.
+            <br><br>
+            <b>Swimming</b>
+            <br>Swimming is an excellent exercise engaging various muscle groups, improving cardiovascular health, and providing a relaxing experience.
+            <br><br>
+            <b>Steam baths</b>
+            <br> Steam baths use the heat of water vapor to open pores, cleanse the skin, and improve breathing. This type of hydrotherapy is often combined with aromatherapy.
+          </p>
         </mat-expansion-panel>
-      </mat-accordion>
-      <mat-accordion>
+    </mat-accordion>
+
+    <mat-accordion>
         <mat-expansion-panel (opened)="panelOpenState = true"
                              (closed)="panelOpenState = false">                
           <mat-expansion-panel-header>
@@ -180,9 +209,7 @@
              the inflammatory process is reduced and helps to remove the factors that lead to pain. Electrotherapy has an analgesic effect on pain, 
              which means that it reduces pain very well, by stimulating receptors in the skin and releasing endogenous opioids, as well as by improving blood and lymph circulation. 
             It promotes the regeneration of peripheral nerves and osteogenesis (healing) in bone fractures.</p>
-            <br>
-            <i><p>subtypes of electrotherapy : </p></i>
-            <br>
+            <br><br><p class="type">Types of electrotherapy : </p><br>
             <P class="klas1">
               <strong>Galvanic current</strong><br>
                 It is a one-way constant current that is used in painful conditions, rheumatic diseases, swelling, nerve injuries, etc. 
@@ -243,14 +270,74 @@
                antibiotics). The advantages of this therapy are the prolonged effect of the drug because a depot is created in the skin and the drug is gradually released into the tissue,
                 acting in maximum concentration directly at the site of the pathological process. 
               This also avoids damage to the gastrointestinal tract and bypasses the liver's blood flow, and thus its damage.
-            </P><br>
-
-
-
-
-                        
+            </P><br>         
           </mat-expansion-panel>
       </mat-accordion>
+
+      <mat-accordion>
+        <mat-expansion-panel (opened)="panelOpenState = true"
+                             (closed)="panelOpenState = false">                
+          <mat-expansion-panel-header>
+            <mat-panel-title>
+              <b>Kinesitherapy</b>
+            </mat-panel-title>
+          </mat-expansion-panel-header>
+          <p class="klas1">Kinesitherapy, corrective therapy from (Greek: kinesis - movement, therapeio - treatment) is a type of physical therapy and a field of sports medicine, 
+            which is characterized by the application of movements aligned with the therapeutic requirement and the patient as a whole. <br>
+            it is essentially based on the application of exercises, based on scientific principles, which are adapted to increase the strength,<br>
+            endurance and mobility of persons with functional limitations or those (athletes) who require prolonged physical fitness, and therefore its main objectives are:
+            <br><br>
+            <i>Prevention of damage to the function of the locomotor system</i><br><br>
+            <i>Improvement of segmental and general locomotor function. The main prerequisite for achieving this goal is a good evaluation of the locomotor system.</i><br><br>
+            <i>Improvement or treatment of impaired functions of the cardiovascular, respiratory and other systems</i></p>
+        </mat-expansion-panel>
+    </mat-accordion>
+
+  <mat-accordion>
+      <mat-expansion-panel (opened)="panelOpenState = true"
+                           (closed)="panelOpenState = false">                
+        <mat-expansion-panel-header>
+          <mat-panel-title>
+            <b>Peloid therapy</b>
+          </mat-panel-title>
+        </mat-expansion-panel-header>
+        <p class="klas1">Peloid therapy is a type of therapy that relies on the use of thermal mud, clay, 
+          or other sedimentary materials in the treatment of various health problems. This type of therapy is often used in spas and spas for its potential
+           therapeutic effects on the skin, muscles and joints.
+          <br><br><p class="type">Types of peloid therapy:</p><br>
+          <b>Peloid bath</b>
+          <br>The patient is completely or partially immersed in warm water in which sedimentary materials such as mud or clay have been dissolved.
+           This bath can have a positive effect on circulation, relaxing muscles and improving skin texture.<br><br>
+          
+          <b>Peloid wraps</b>
+          <br>Warm peloid wraps are applied directly to specific areas of the body that require treatment. This can help reduce pain,
+           swelling and improve local circulation.<br><br>
+          
+          <b>Peloid massages</b>
+          <br> The therapist can use peloid preparations during the massage to enhance the therapeutic effects. This is often used in 
+          combination with other forms of therapy.
+        </p>
+      </mat-expansion-panel>
+  </mat-accordion>
+
+  <mat-accordion>
+    <mat-expansion-panel (opened)="panelOpenState = true"
+                         (closed)="panelOpenState = false">                
+      <mat-expansion-panel-header>
+        <mat-panel-title>
+          <b>Inhalation therapy</b>
+        </mat-panel-title>
+      </mat-expansion-panel-header>
+      <p class="klas1">Inhalation therapy is a form of treatment that involves the inhalation of various substances, such as medicinal vapors, 
+        to provide therapeutic benefits, especially for respiratory conditions. <br>
+        This type of therapy is commonly used in spa and health resorts to address respiratory issues and promote overall well-being.
+        <br><br><p class="type">Types of inhalations:</p><br>
+        <b>Steam Inhalation</b>
+        <br> In this method, individuals inhale steam generated from hot water.
+         It can help soothe respiratory passages, alleviate congestion, and provide relief from conditions such as colds and sinusitis.
+      </p>
+    </mat-expansion-panel>
+</mat-accordion>
 
 
 
