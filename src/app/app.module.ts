@@ -29,7 +29,6 @@ import { LightgalleryModule } from 'lightgallery/angular';
 
 
 import { ReactiveFormsModule } from '@angular/forms';
-import { HttpClientModule } from '@angular/common/http';
 import { ToastrModule } from 'ngx-toastr';
 import { CarouselModule } from "./carousel/carousel.module";
 import { FooterComponent } from './navigation/footer/footer.component';
@@ -49,8 +48,16 @@ import { MatButtonToggleModule } from '@angular/material/button-toggle';
 
 import {MatDatepickerModule} from '@angular/material/datepicker';
 
+import { DomSanitizer } from '@angular/platform-browser';
 
 
+import { HttpClientModule, HttpClient } from '@angular/common/http';
+import { TranslateModule, TranslateLoader } from '@ngx-translate/core';
+import { TranslateHttpLoader } from '@ngx-translate/http-loader';
+
+export function HttpLoaderFactory(http: HttpClient) {
+  return new TranslateHttpLoader(http);
+ }
 
 @NgModule({
     declarations: [
@@ -77,6 +84,7 @@ import {MatDatepickerModule} from '@angular/material/datepicker';
         UserlistingComponent,
         
         
+        
     ],
     providers: [],
     bootstrap: [AppComponent],
@@ -98,7 +106,15 @@ import {MatDatepickerModule} from '@angular/material/datepicker';
         CalendarModule, DatePickerModule, TimePickerModule, DateRangePickerModule, DateTimePickerModule,
         MatNativeDateModule,
         MatButtonToggleModule,
-        MatDatepickerModule
+        MatDatepickerModule,
+        HttpClientModule,
+        TranslateModule.forRoot({
+          loader: {
+            provide: TranslateLoader,
+            useFactory: HttpLoaderFactory,
+            deps: [HttpClient]
+          }
+        })
        
 
         

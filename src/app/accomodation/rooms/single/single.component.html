@@ -2,117 +2,111 @@
     <img src="http://localhost:4200/assets/img/single/singleroomm.jpg">
     <div class="text-box">
         <div class="cont-text-box">
-            <h3>Rooms</h3>
-            <p>* * * Single bedrooms * * *</p>
+            <h3>{{ 'Rooms' | translate }}</h3>
+            <p>{{ '* * * Single bedrooms * * *' | translate }}</p>
         </div>
     </div>
 </div>
 <div class="single-container">
-<div class="InPageGallery">
-    <div class="container-h2">
-        <p>First &nbsp; Single &nbsp; bedroom&nbsp;</p>
-    </div>
-    <div class="ShrinkContainer2">
-                        <div class="RoomImage">
+    <div class="InPageGallery">
+        <div class="container-h2">
+            <p>{{ 'first'| translate }}</p>
+        </div>
+        <div class="ShrinkContainer2">
+            <div class="RoomImage">
                 <img src="http://localhost:4200/assets/img/single/singleroom.avif"  alt="singleroomfoto1">
             </div>    
-                            <div class="RoomImage">
+            <div class="RoomImage">
                 <img src="http://localhost:4200/assets/img/single/singleroomm.jpg"  alt="singleroomfoto2">
             </div>    
-                            <div class="RoomImage">
+            <div class="RoomImage">
                 <img src="http://localhost:4200/assets/img/single/singleroom.avif"  alt="singleroomfoto3">
             </div>    
 
             <div class="textcontainer">
-                <p>
-                    Two single rooms are available.<br><br> The first room is located on the first floor of the house. 
-                    It contains one bed, wardrobe, bedside table, TV and free internet. <br>From the window of the room you can see a beautiful view of the park,
-                     which is located across the street from the house.<br><br> The room uses a shared bathroom and kitchen.<br> There is a large terrace in front of the house.<br><br>
-                    Another such room is located on the ground floor with the same inventory.<br>
-                </p>
+                <p [innerHTML]="'PARAGRAPH2' | translate"></p>
             </div>
             <div class="container-h2">
-                <p>Second &nbsp; Single &nbsp; bedroom&nbsp;</p>
+                <p>{{ 'second' | translate }}</p>
             </div>
             <div class="RoomImage">
                 <img src="http://localhost:4200/assets/img/single/singleroom.avif"  alt="singleroomfoto1">
             </div>    
-                            <div class="RoomImage">
+            <div class="RoomImage">
                 <img src="http://localhost:4200/assets/img/single/singleroomm.jpg"  alt="singleroomfoto2">
             </div>    
-                            <div class="RoomImage">
+            <div class="RoomImage">
                 <img src="http://localhost:4200/assets/img/single/singleroom.avif"  alt="singleroomfoto3">
             </div>    
 
             <div class="container-h2">
-                <p>Kitchen  &nbsp; And &nbsp; Bathroom&nbsp;</p>
+                <p>{{ 'Kitchen' | translate }}</p>
             </div>
             <div class="RoomImage">
                 <img src="http://localhost:4200/assets/img/single/gf1.png"  alt="singleroomfoto1">
             </div>    
-                            <div class="RoomImage">
+            <div class="RoomImage">
                 <img src="http://localhost:4200/assets/img/single/kk3.png"  alt="singleroomfoto2">
             </div>    
-                            <div class="RoomImage">
+            <div class="RoomImage">
                 <img src="http://localhost:4200/assets/img/single/gff.png"  alt="singleroomfoto3">
             </div>  
-    </div>
+        </div>
         <div class="containerIcons">
-            <header class="hd">Amenities: </header>
+            <header class="hd">{{ 'Amenities:' | translate }}</header>
             
             <ul>
             <li>
-                <span class="material-symbols-outlined">single_bed</span>
-                <p class="text-list">single bed</p>
+                <span class="material-symbols-outlined">{{ 'single_bed' | translate }}</span>
+                <p class="text-list">{{ 'single bed' | translate }}</p>
             </li>
             <li>
-                <span class="material-symbols-outlined">wifi</span>
-                <p class="text-list">free wifi</p>
+                <span class="material-symbols-outlined">{{ 'wifi' | translate }}</span>
+                <p class="text-list">{{ 'free wifi' | translate }}</p>
             </li>
             <li>
-                <span class="material-symbols-outlined">desk</span>
-                <p class="text-list">desk / night desk</p>
+                <span class="material-symbols-outlined">{{ 'desk' | translate }}</span>
+                <p class="text-list">{{ 'desk / night desk' | translate }}</p>
             </li>
             <li>
-                <span class="material-symbols-outlined">inventory_2</span>
-                <p class="text-list">wardrobe for clothes</p>
+                <span class="material-symbols-outlined">{{ 'inventory_2' | translate }}</span>
+                <p class="text-list">{{ 'wardrobe for clothes' | translate }}</p>
             </li>
             <li>
-                <span class="material-symbols-outlined">checkroom</span>
-                <p class="text-list"> checkroom</p>
+                <span class="material-symbols-outlined">{{ 'checkroom' | translate }}</span>
+                <p class="text-list">{{ 'checkroomm' | translate }}</p>
             </li>
             <li>
-                <span class="material-symbols-outlined">tv</span>
-                <p class="text-list">television</p>
+                <span class="material-symbols-outlined">{{ 'tv' | translate }}</span>
+                <p class="text-list">{{ 'television' | translate }}</p>
             </li>
             <li>
-                <span class="material-symbols-outlined">panorama</span>
-                <p class="text-list">beutiful view</p>
+                <span class="material-symbols-outlined">{{ 'panorama' | translate }}</span>
+                <p class="text-list">{{ 'beautiful view' | translate }}</p>
             </li>
             <li>
-                <span class="material-symbols-outlined">local_parking</span>
-                <p class="text-list">free parking</p>
+                <span class="material-symbols-outlined">{{ 'local_parking' | translate }}</span>
+                <p class="text-list">{{ 'free parking' | translate }}</p>
             </li>
             <li>
-                <span class="material-symbols-outlined">bathroom</span>
-                <p class="text-list"> shared bathroom </p>
+                <span class="material-symbols-outlined">{{ 'bathroom' | translate }}</span>
+                <p class="text-list">{{ 'shared bathroom' | translate }}</p>
             </li>
             <li>
-                <span class="material-symbols-outlined">multicooker</span>
-                <p class="text-list"> shared kitchen </p>
+                <span class="material-symbols-outlined">{{ 'multicooker' | translate }}</span>
+                <p class="text-list">{{ 'shared kitchen' | translate }}</p>
             </li>
             <li>
-                <span class="material-symbols-outlined">stockpot</span>
-                <span class="material-symbols-outlined">flatware</span>
-                <span class="material-symbols-outlined">coffee</span>
+                <span class="material-symbols-outlined">{{ 'stockpot' | translate }}</span>
+                <span class="material-symbols-outlined">{{ 'flatware' | translate }}</span>
+                <span class="material-symbols-outlined">{{ 'coffee' | translate }}</span>
                 
-                <p class="text-list"> all kitchen utensils </p>
+                <p class="text-list">{{ 'all kitchen utensils' | translate }}</p>
             </li>
             <li>
-                <span class="material-symbols-outlined">pets</span>
-                <p class="text-list">pets allowed</p>
+                <span class="material-symbols-outlined">{{ 'pets' | translate }}</span>
+                <p class="text-list">{{ 'pets allowed' | translate }}</p>
             </li>    
         </ul>
     </div>
 </div>
-

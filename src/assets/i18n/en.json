@@ -1,0 +1,71 @@
+{
+  "__comment": "home stranica",
+  "BOOK": "Book",
+  "BOOK_NOW": "your rooms",
+  "BOOK_THE_APPROPRIATE": "Book The Appropriate",
+  "ACCOMMODATION": "Accommodation",
+  "ROOMS_AND_APARTMENTS": "Rooms & Apartments Dragana Nikolić",
+  "PARAGRAPH": "Private accommodation is located just a few hundred meters from the Geyzer special rehabilitation hospital in Sijarinska Banja. <br><br> Not far from Radan mountain, at a distance of about 300 kilometers from Belgrade, but it can be reached by the high-speed highway Belgrade - Niš - Leskovac, then the regional road Leskovac - Priština. <br><br> Private accommodation of Dragana Nikolić, rooms and apartments, with its long-standing tradition, have become the main brand for all those who want to feel at home. <br> <br> Excellent price-quality ratio. Considering that the accommodation is located in the very center of the spa, there are also many sights that can be visited on foot. <br> The most significant landmarks are the Church of St. Elijah, mineral springs, swimming pools and the geyser itself. <br><br> The ground floor and first floor of the house, as well as the log cabin itself, were completely renovated. Available on the ground floor: 2 double rooms with shared bathroom, kitchen and terrace, 1 studio apartment with 3 beds with separate bathroom, kitchen and terrace. <br><br> On the first floor of the house there are: 2 double rooms and 1 single room with shared bathroom and kitchen, and 1 studio with 3 beds with separate bathroom and kitchen. <br><br> In front of the house in the yard there is a log cabin. <br> On the first floor of the log cabin there is a studio apartment with two beds, TV, separate kitchen, bathroom and separate terrace. <br> In the attic of the log cabin there is an apartment with two sofas, also with separate bathroom, kitchen and terrace. <br> From the log cabin there is a beautiful view of the Church of St. Elijah, which is located in the immediate vicinity of the accommodation. <br> In front of the house there is a huge terrace, overlooking the hotel, church and park across the street from the house.",
+  "ROOMS_AND_SUITES": "Rooms & Suites",
+    
+  "__comment2": "accomodation stranica",
+    "ACCOMMODATION2": "Accommodation",
+    "ROOMS_APARTMENTS_LOG_CABIN": "rooms / apartments / log cabin",
+    "SINGLE_ROOMS": "Single rooms",
+    "DOUBLE_ROOMS": "Double rooms",
+    "STUDIO_APARTMENTS": "Studio apartments",
+    "LOG_CABIN": "Log cabin",
+    "VIEW_MORE": "View more",
+    "ROOMS_WITH_ONE_BED": "rooms with one bed, area 16m² with a wardrobe and a bedside table and with a view of nature",
+    "ROOMS_WITH_TWO_BED": "rooms with two bed, area 25m² with a wardrobe and two bedside tables and with a balcony",
+    "TWO_STUDIO_APARTMENTS": "We have two studio apartments, area 25m². Both contain 3 beds",
+    "TWO_FLOORS_LOG_CABIN": "The log house has two floors. Each floor has 30m². They have a separate terrace",
+  
+    "__comment3": "single stranica",
+      "Rooms": "Rooms",
+      "* * * Single bedrooms * * *": "* * * Single bedrooms * * *",
+      "first": "First   Single   bedroom",
+      "PARAGRAPH2": "Two single rooms are available.<br><br> The first room is located on the first floor of the house. It contains one bed, wardrobe, bedside table, TV and free internet. <br>From the window of the room you can see a beautiful view of the park, which is located across the street from the house.<br><br> The room uses a shared bathroom and kitchen.<br> There is a large terrace in front of the house.<br><br> Another such room is located on the ground floor with the same inventory.",
+      "second": "Second Single bedroom",
+      "Kitchen": "Kitchen And Bathroom",
+      "Amenities:": "Amenities:",
+      "single bed": "single bed",
+      "free wifi": "free wifi",
+      "desk / night desk": "desk / night desk",
+      "wardrobe for clothes": "wardrobe for clothes",
+      "television": "television",
+      "beautiful view": "beautiful view",
+      "free parking": "free parking",
+      "shared bathroom": "shared bathroom",
+      "shared kitchen": "shared kitchen",
+      "all kitchen utensils": "all kitchen utensils",
+      "pets allowed": "pets allowed",
+
+      "__comment4": "double stranica",
+        "rooms": "Rooms",
+        "double_bedrooms": "* * * Double bedrooms * * *",
+        "all_double_bedrooms": "All Double Bedrooms",
+        "long_text": "Four double rooms are available. The first two double rooms are located on the ground floor of the house. Each room contains two beds, wardrobe, bedside tables, TV and free internet. Rooms on the ground floor have balcony doors and access to a large terrace. And the door of the room faces the hallway of the house, where the kitchen and bathroom are located. The window of the room offers a beautiful view of the park across the street from the house. Two other double rooms are located on the first floor, with the same fixtures and layout.",
+        "kitchen_and_bathroom": "Kitchen & Bathroom",
+        "amenities": "Amenities",
+        "double_bed": "Double Bed",
+        "free_wifi": "Free WiFi",
+        "desk_night_desk": "Desk / Night Desk",
+        "wardrobe_for_clothes": "Wardrobe for Clothes",
+        "checkroom": "Checkroom",
+        "televisions": "Television",
+        "beautiful_view": "Beautiful View",
+        "free_parking": "Free Parking",
+        "shared_bathroom": "Shared Bathroom",
+        "shared_kitchen": "Shared Kitchen",
+        "all_kitchen_utensils": "All Kitchen Utensils",
+        "pets_allowed": "Pets Allowed"
+      
+
+      
+  
+  
+  
+  }
+  
+  

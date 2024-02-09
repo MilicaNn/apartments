@@ -1,4 +1,5 @@
 import { Component, OnInit, EventEmitter, Output, HostListener } from '@angular/core';
+import { TranslateService } from '@ngx-translate/core';
 
 @Component({
   selector: 'app-header',
@@ -11,7 +12,7 @@ export class HeaderComponent implements OnInit {
   @Output() SideNavigationToggle=new EventEmitter();
 
 
-  constructor(){}
+ 
 
 ngOnInit(){}
 
@@ -30,4 +31,27 @@ navbarfixed:boolean=false;
   }
 
 }
+
+// constructor(private translate: TranslateService) {
+//   // Postavite podrazumevani jezik
+//   translate.setDefaultLang('en');
+// }
+
+// switchLanguage(language: string) {
+//   // Promena jezika
+//   this.translate.use(language);
+// }
+  constructor(private translate: TranslateService) {
+    // Postavite podrazumevani jezik
+    translate.setDefaultLang('en');
+  
+    // Učitajte prevode za sve jezike
+    translate.use('en');
+  }
+  switchLanguage(language: string) {
+    this.translate.use(language);
+  }
+  
+
+
 }

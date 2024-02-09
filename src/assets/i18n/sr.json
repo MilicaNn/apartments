@@ -1,0 +1,76 @@
+{
+  "__comment": "home stranica",
+"BOOK": "Rezervišite",
+"BOOK_NOW":"svoj smeštaj",
+"BOOK_THE_APPROPRIATE": "Rezervišite odgovarajući",
+"ACCOMMODATION": "Smeštaj",
+"ROOMS_AND_APARTMENTS": "Sobe & Apartmani Dragane Nikolić",
+"PARAGRAPH": "Privatni smeštaj se nalazi samo nekoliko stotina metara od Specijalne bolnice za rehabilitaciju Gejzer u Sijarinskoj Banji. <br><br> Nije daleko od planine Radan, na udaljenosti od oko 300 kilometara od Beograda, ali se može doći autoputem visokih brzina Beograd - Niš - Leskovac, a zatim regionalnim putem Leskovac - Priština. <br><br> Privatni smeštaj Dragane Nikolić, sobe i apartmani, sa svojom dugogodišnjom tradicijom, postali su glavni brend za sve one koji žele da se osećaju kao kod kuće. <br><br> Izvanredan odnos cena-kvalitet. S obzirom na to da je smeštaj smešten u samom centru banje, postoji i mnogo znamenitosti koje se mogu obići pešice. Najznačajniji spomenici su Crkva Svetog Ilije, mineralni izvori, bazeni i sam gejzer. <br><br> Prizemlje i prvi sprat kuće, kao i sama brvnara, potpuno su renovirani. Na raspolaganju su u prizemlju: 2 dvokrevetne sobe sa deljenim kupatilom, kuhinjom i terasom, 1 studio apartman sa 3 kreveta sa zasebnim kupatilom, kuhinjom i terasom. <br><br> Na prvom spratu kuće su: 2 dvokrevetne sobe i 1 jednokrevetna soba sa deljenim kupatilom i kuhinjom, i 1 studio sa 3 kreveta sa zasebnim kupatilom i kuhinjom. <br><br> Ispred kuće u dvorištu nalazi se brvnara.<br> Na prvom spratu brvnare nalazi se studio apartman sa dva kreveta, TV-om, zasebnom kuhinjom, kupatilom i zasebnom terasom.<br> Na tavanu brvnare nalazi se apartman sa dve sofe, takođe sa zasebnim kupatilom, kuhinjom i terasom.<br> Iz brvnare se pruža predivan pogled na Crkvu Svetog Ilije, koja se nalazi u neposrednoj blizini smeštaja. Ispred kuće nalazi se ogromna terasa, sa pogledom na hotel, crkvu i park preko puta ulice od kuće.",
+"ROOMS_AND_SUITES": "Sobe & apartmani",
+  
+"__comment2": "accomodataion stranica",
+  "ACCOMMODATION2": "Smeštaj",
+  "ROOMS_APARTMENTS_LOG_CABIN": "sobe / apartmani / brvnara",
+  "SINGLE_ROOMS": "Jednokrevetne sobe",
+  "DOUBLE_ROOMS": "Dvokrevetne sobe",
+  "STUDIO_APARTMENTS": "Studijski apartmani",
+  "LOG_CABIN": "Brvnara",
+  "VIEW_MORE": "Pogledaj više",
+  "ROOMS_WITH_ONE_BED": "sobe sa jednim krevetom, površine 16m² sa ormarom i noćnim stočićem i sa pogledom na prirodu",
+  "ROOMS_WITH_TWO_BED": "sobe sa dva kreveta, površine 25m² sa ormarom i dva noćna stočića i sa balkonom",
+  "TWO_STUDIO_APARTMENTS": "Imamo dva studijska apartmana, površine 25m². Oba sadrže 3 kreveta",
+  "TWO_FLOORS_LOG_CABIN": "Brvnara ima dva sprata. Svaki sprat ima 30m². Imaju zasebnu terasu",
+
+  "__comment3": "single stranica",
+    "Rooms": "Sobe",
+    "* * * Single bedrooms * * *": "* * * Jednokrevetne sobe * * *",
+    "first": "Prva jednokrevetna soba",
+   "PARAGRAPH2": "Dve jednokrevetne sobe su dostupne.<br><br> Prva soba se nalazi na prvom spratu kuće. Sadrži jedan krevet, ormar, noćni stočić, TV i besplatan internet. <br> Sa prozora sobe se pruža prelep pogled na park koji se nalazi preko puta kuće.<br><br> Soba koristi zajedničko kupatilo i kuhinju.<br> Ispred kuće se nalazi velika terasa.<br><br> Druga soba sličnog opremanja nalazi se u prizemlju.",
+    "second": "Druga jednokrevetna soba",
+    "Kitchen": "Kuhinja i kupatilo",
+    "Amenities:": "Pogodnosti:",
+    "single bed": "jednokrevetni krevet",
+    "free wifi": "besplatan wifi",
+    "desk / night desk": "sto / noćni stočić",
+    "wardrobe for clothes": "ormar za odeću",
+    "television": "televizor",
+    "beautiful view": "prelep pogled",
+    "free parking": "besplatan parking",
+    "shared bathroom": "deljeno kupatilo",
+    "shared kitchen": "deljena kuhinja",
+    "all kitchen utensils": "svi kuhinjski pribor",
+    "pets allowed": "dozvoljeni ljubimci",
+    "checkroomm":"ofinger",
+
+    "__comment4": "double stranica",
+      "rooms": "Sobe",
+      "double_bedrooms": "* * * Dvokrevetne sobe * * *",
+      "all_double_bedrooms": "Sve dvokrevetne sobe",
+      "long_text": "Dostupne su četiri dvokrevetne sobe. Prve dve dvokrevetne sobe nalaze se u prizemlju kuće. Svaka soba sadrži dva kreveta, ormar, noćne stočiće, TV i besplatan internet. Sobe u prizemlju imaju balkonska vrata i pristup velikoj terasi. Vrata sobe okrenuta su ka hodniku kuće, gde se nalaze kuhinja i kupatilo. Prozor sobe pruža predivan pogled na park preko puta kuće. Druge dve dvokrevetne sobe nalaze se na prvom spratu, sa istim uređajima i rasporedom.",
+      "kitchen_and_bathroom": "Kuhinja i kupatilo",
+      "amenities": "Pogodnosti",
+      "double_bed": "Dvokrevetni krevet",
+      "free_wifi": "Besplatan WiFi",
+      "desk_night_desk": "Radni sto / Noćni sto",
+      "wardrobe_for_clothes": "Ormar za odeću",
+      "checkroom": "Garderober",
+      "televisions": "Televizor",
+      "beautiful_view": "Predivan Pogled",
+      "free_parking": "Besplatan Parking",
+      "shared_bathroom": "Deljeno Kupatilo",
+      "shared_kitchen": "Deljena Kuhinja",
+      "all_kitchen_utensils": "Svi Kuhinjski Pribor",
+      "pets_allowed": "Dozvoljeni kućni ljubimci"
+    
+    
+    
+
+
+
+
+
+  
+  
+
+}
+  
