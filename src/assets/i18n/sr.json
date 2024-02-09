@@ -43,24 +43,16 @@
     "checkroomm":"ofinger",
 
     "__comment4": "double stranica",
-      "rooms": "Sobe",
-      "double_bedrooms": "* * * Dvokrevetne sobe * * *",
-      "all_double_bedrooms": "Sve dvokrevetne sobe",
-      "long_text": "Dostupne su četiri dvokrevetne sobe. Prve dve dvokrevetne sobe nalaze se u prizemlju kuće. Svaka soba sadrži dva kreveta, ormar, noćne stočiće, TV i besplatan internet. Sobe u prizemlju imaju balkonska vrata i pristup velikoj terasi. Vrata sobe okrenuta su ka hodniku kuće, gde se nalaze kuhinja i kupatilo. Prozor sobe pruža predivan pogled na park preko puta kuće. Druge dve dvokrevetne sobe nalaze se na prvom spratu, sa istim uređajima i rasporedom.",
-      "kitchen_and_bathroom": "Kuhinja i kupatilo",
-      "amenities": "Pogodnosti",
-      "double_bed": "Dvokrevetni krevet",
-      "free_wifi": "Besplatan WiFi",
-      "desk_night_desk": "Radni sto / Noćni sto",
-      "wardrobe_for_clothes": "Ormar za odeću",
-      "checkroom": "Garderober",
-      "televisions": "Televizor",
-      "beautiful_view": "Predivan Pogled",
-      "free_parking": "Besplatan Parking",
-      "shared_bathroom": "Deljeno Kupatilo",
-      "shared_kitchen": "Deljena Kuhinja",
-      "all_kitchen_utensils": "Svi Kuhinjski Pribor",
-      "pets_allowed": "Dozvoljeni kućni ljubimci"
+      "Rooms1": "Sobe",
+      "double": "* * * Dvokrevetne sobe * * *",
+      "doubleALL": "Sve dvokrevetne sobe",
+      "PARAGRAPH3": "Dostupne su četiri dvokrevetne sobe. Prve dve dvokrevetne sobe nalaze se u prizemlju kuće. <br> <br> Svaka soba sadrži dva kreveta, ormar, noćne stočiće, TV i besplatan internet. <br>Sobe u prizemlju imaju balkonska vrata i pristup velikoj terasi. Vrata sobe okrenuta su ka hodniku kuće, gde se nalaze kuhinja i kupatilo. <br><br>Prozor sobe pruža predivan pogled na park preko puta kuće. <br> Druge dve dvokrevetne sobe nalaze se na prvom spratu, sa istim uređajima i rasporedom.",
+      "kitchen1": "Kuhinja & kupatilo",
+      "Amenities": "Pogodnosti",
+      "double bed":"Dvokrevetni krevet",
+      "desk night desk": "Radni sto / Noćni sto",
+      "televisions": "Televizor"
+     
     
     
     
