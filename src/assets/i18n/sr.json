@@ -28,6 +28,7 @@
    "PARAGRAPH2": "Dve jednokrevetne sobe su dostupne.<br><br> Prva soba se nalazi na prvom spratu kuće. Sadrži jedan krevet, ormar, noćni stočić, TV i besplatan internet. <br> Sa prozora sobe se pruža prelep pogled na park koji se nalazi preko puta kuće.<br><br> Soba koristi zajedničko kupatilo i kuhinju.<br> Ispred kuće se nalazi velika terasa.<br><br> Druga soba sličnog opremanja nalazi se u prizemlju.",
     "second": "Druga jednokrevetna soba",
     "Kitchen": "Kuhinja i kupatilo",
+
     "Amenities:": "Pogodnosti:",
     "single bed": "jednokrevetni krevet",
     "free wifi": "besplatan wifi",
@@ -42,16 +43,172 @@
     "pets allowed": "dozvoljeni ljubimci",
     "checkroomm":"ofinger",
 
-    "__comment4": "double stranica",
+
+      "__comment4": "dvostruka stranica",
       "Rooms1": "Sobe",
       "double": "* * * Dvokrevetne sobe * * *",
-      "doubleALL": "Sve dvokrevetne sobe",
-      "PARAGRAPH3": "Dostupne su četiri dvokrevetne sobe. Prve dve dvokrevetne sobe nalaze se u prizemlju kuće. <br> <br> Svaka soba sadrži dva kreveta, ormar, noćne stočiće, TV i besplatan internet. <br>Sobe u prizemlju imaju balkonska vrata i pristup velikoj terasi. Vrata sobe okrenuta su ka hodniku kuće, gde se nalaze kuhinja i kupatilo. <br><br>Prozor sobe pruža predivan pogled na park preko puta kuće. <br> Druge dve dvokrevetne sobe nalaze se na prvom spratu, sa istim uređajima i rasporedom.",
-      "kitchen1": "Kuhinja & kupatilo",
-      "Amenities": "Pogodnosti",
-      "double bed":"Dvokrevetni krevet",
-      "desk night desk": "Radni sto / Noćni sto",
-      "televisions": "Televizor"
+      "doubleALL": "Sve Dvokrevetne Sobe",
+      "PARAGRAPH3": "Dostupne su četiri dvokrevetne sobe. Prve dve dvokrevetne sobe nalaze se u prizemlju kuće. <br> <br> Svaka soba sadrži dva kreveta, ormar, noćne stočiće, televizor i besplatan internet. <br> Sobe u prizemlju imaju balkonska vrata i pristup velikoj terasi. Vrata sobe okrenuta su prema hodniku kuće, gde se nalazi kuhinja i kupatilo. <br><br> Prozor sobe pruža predivan pogled na park preko puta kuće. <br> Druge dve dvokrevetne sobe nalaze se na prvom spratu, sa istim opremljenjem i rasporedom.",
+      "kitchen1": "Kuhinja i Kupatilo",
+      "double bed": "dvokrevetni krevet",
+
+
+      "__comment5": "studio stranica",
+        "Apartments": "Apartmani",
+        "* * * Studio apartments * * *": "* * * Studio apartmani * * *",
+        "First": " Prvi    Studio    Apartmani  ",
+        "PARAGRAPH4":"Dostupna su dva studijska apartmana.<br><br> Prvi studio se nalazi na prvom spratu kuće. Sadrži tri kreveta, ormar, noćni sto, televizor i besplatan internet. <br>Iz prozora sobe možete videti predivan pogled na park, koji se nalazi preko puta kuće.<br><br> Soba koristi posebno kupatilo i kuhinju.<br><br> Studio ima posebno kupatilo i kuhinju u sobi. Sadrži sve kuhinjske elemente, od šolja za kafu, tiganja, tanjira, do lonaca i viljuški. <br><br> Ima indukcionu ploču za kuvanje i frižider. Osim osnovnih higijenskih potrepština, u kupatilu uvek ima tople vode. Ispred kuće se nalazi velika terasa sa stolovima i stolicama, <br>gde možete sedeti i uživati u predivnom pogledu na prirodu. <br><br> Na terasi se takođe nalazi linija za sušenje veša, <br>a mašina za pranje veša se nalazi u prizemlju kuće.<br><br> Drugi studio apartman se nalazi u prizemlju kuće i ima isti inventar i raspored.",
+        "Secound_studio": "  Drugi   Studio   Apartmani  ",
+        "separate bathroom":"zasebno kupatilo",
+        "separate kitchen":"zasebna kuhinja",
+        "triple single bed":"tri jednopersonska kreveta",
+
+
+      "Log cabin": "Brvnara",
+      "* * * Apartments * * *": "* * * Apartmani * * *",
+      "First floor": "Prvi sprat",
+      "Attic": "Tavan",
+      "PARAGRAPH5": "Dostupne su dve brvnare.<br><br> Prva se nalazi na prvom spratu brvnare. Sadrži dva kreveta, ormar, noćni sto, televizor i besplatan internet. <br>Sa balkona sobe možete videti predivan pogled na crkvu i park.<br><br> Soba ima posebno kupatilo i kuhinju. Sadrži sve kuhinjske elemente, od šolja za kafu, tiganja, tanjira, do lonaca i viljuški. <br><br> Ima indukcionu ploču za kuvanje i frižider. Osim osnovnih higijenskih potrepština, u kupatilu uvek ima tople vode. <br> Unutar brvnare nalazi se balkon sa stolom i stolicama <br><br> i mašina za pranje veša se nalazi u prizemlju kuće.<br><br>",
+        
+    
+      "Make a reservation": "Napravite rezervaciju",
+      "Name": "Ime",
+      "Last Name": "Prezime",
+      "Email": "Email",
+      "Phone number": "Broj telefona",
+      "Date Arrival": "Datum dolaska",
+      "Date Departure": "Datum odlaska",
+      "Adults": "Odrasli",
+      "Children": "Deca",
+      "Message": "Poruka",
+      "Send": "POŠALJI",
+
+
+      "About Spa":"O banji",
+      "PARAGRAPH6": "Tokom bušenja od 17. do 19. oktobra 1954. godine, na levoj strani Jablanice, na visini od 470 metara, pojavio se jak mlaz vruće vode preko 60 °C.<br>Na dubini od 9 metara, temperatura vode bila je toliko visoka da je dalje bušenje obustavljeno.<br>Pritisak pare i gasova pomogao je jakom stubu vode da izvire iz ovog izvorišta do visine od 6-8 metara. Tako je nastao gejzir - glavna atrakcija Sijarinske banje.<br><br>Voda se sakuplja u malom betonskom bazenu iz kojeg odlazi neiskorišćena voda. Prema posetiocima, kupanje pod ovim mlazom ima blagotvoran efekat na smirivanje nerava.<br><br>Banja Sijarina se nalazi na padinama planine Goljak. Nalazi se na udaljenosti od preko 300 kilometara od Beograda. Do banje se može stići autoputem Beograd - Niš - Leskovac, a zatim regionalnim putem Leskovac - Priština.<br>Okružena je neverovatnim brdima i livadama prekrivenim bujnim borovim i hrastovim šumama, pa je vazduh svež i čist.",
+        "SIJARINSKA_BANJA_DESCRIPTION": "U Sijarinskoj Banji, bazeni i spa centri igraju ključnu ulogu u pružanju opuštajućih iskustava, rekreacije i terapijskih tretmana. Evo pregleda bazena i spa sadržaja u Sijarinskoj Banji:",
+        "POOLS_TITLE": "Bazeni",
+        "INDOOR_POOLS_DESCRIPTION": "Unutrašnji bazeni: Sijarinska Banja može ponuditi unutrašnje bazene sa termalnom vodom, pružajući posetiocima mogućnost da plivaju u udobnom okruženju tokom cele godine.",
+        "OUTDOOR_POOLS_DESCRIPTION": "Spoljni bazeni: Tokom toplijih meseci, posetioci mogu uživati u spoljnim bazenima, okruženim prirodom i svežim vazduhom.",
+        "SPA_CENTERS_TITLE": "Spa centri",
+        "THERAPEUTIC_MASSAGES_DESCRIPTION": "Terapeutske masaže: Spa centri često nude različite vrste masaža, uključujući klasičnu masažu, masažu toplim kamenjem, aromaterapiju i druge tehnike.",
+        "SAUNAS_DESCRIPTION": "Saune: Saune sa termalnom vodom pružaju opuštajuće iskustvo sa dodatnim terapijskim efektima. Posetioci mogu koristiti finske saune, parne kupatila ili infracrvene saune.",
+        "SAUNAS_TYPES_DESCRIPTION": "Postoje dva tipa sauna:",
+        "FINNISH_SAUNA_TITLE": "Finska sauna (suva sauna)",
+        "FINNISH_SAUNA_TEMPERATURE": "temperatura 80-100 stepeni",
+        "FINNISH_SAUNA_HUMIDITY": "vlažnost vazduha 10-15 %",
+        "FINNISH_SAUNA_RESIDENCE_TIME": "vreme boravka 10-15 minuta",
+        "BIO_SAUNA_TITLE": "Bio sauna (aromaterapijska sauna)",
+        "BIO_SAUNA_TEMPERATURE": "temperatura 55-75 stepeni",
+        "BIO_SAUNA_HUMIDITY": "vlažnost vazduha 20-40%",
+        "BIO_SAUNA_STAY_TIME": "vreme boravka 10-15 minuta",
+        "HYDROTHERAPY_DESCRIPTION": "Hidroterapija: Specijalizovane terapije koje koriste termalnu vodu, hidromasažu i druge hidroterapijske tehnike kako bi poboljšale zdravlje i opuštanje.",
+        "COSMETIC_TREATMENTS_DESCRIPTION": "Kozmetički tretmani: Spa centri obično nude različite kozmetičke tretmane, poput tretmana lica, manikira, pedikira i drugih usluga lepote.",
+
+        
+          "MEDICINAL_SPRINGS_TITLE": "Lekoviti izvori",
+          "MEDICINAL_SPRINGS_DESCRIPTION": "Osamnaest glavnih mineralnih izvora koji se koriste u terapeutske svrhe u ovoj banji nalaze se jedan pored drugog. Svi su osamnaest od njih smešteni na površini od manje od jednog kilometra, i veoma je interesantno što svaki od njih ima različite karakteristike (temperaturu i fizičko-hemijski sastav). Temperature ovih mineralnih voda dosežu iznenađujuće visoke vrednosti, od 32 do 78°C, pa stoga pripadaju jednim od najtoplijih voda naše zemlje. Ukupan broj izvora otkrivenih u ovoj banji je 26, ali drugih 8 nema lekovita svojstva.",
+          "MEDICINAL_SPRINGS_DETAILS": "Najvažniji su:",
+          "RAJ_SPRING_TITLE": "Izvor \"Raj\"",
+          "RAJ_SPRING_DESCRIPTION": "Voda iz ovog izvora sadrži natrijum, fluor, hidrokarbonat i litijum u svojem hemijskom sastavu. Godine 1936. izgrađena je fontana na mestu svog izvora. Voda stalno teče, ali ne velikom brzinom. Nalazi se duž desne obale reke Banjske.",
+          "RAJ_SPRING_LOCATION": "Izvor se nalazi duž desne obale reke Banjske.",
+          "MAIN_SPRING_TITLE": "Glavni izvor",
+          "MAIN_SPRING_DESCRIPTION": "Ovaj izvor se uglavnom koristi u terapijskom tretmanu jer se njegova voda direktno dovodi u bezdno kupatilo kroz trideset metara dug kanal. Brzina izliva vode je visoka, čak 0,9 litara u sekundi, uz prisustvo gasova. Uklonjen je tri metra iznad nivoa vode u reci Donjoj Banji.",
+          "MAIN_SPRING_LOCATION": "Izvor je uklonjen tri metra iznad nivoa vode u reci Donjoj Banji.",
+          "LITTLE_GEYSER_SPRING_TITLE": "Izvor \"Mali gejzer\"",
+          "LITTLE_GEYSER_SPRING_DESCRIPTION": "Nije dobio ime slučajno, jer izvire kao vodopad i to ne stalno, već povremeno. Voda koja izbija u mlazovima čini to svakih 12 do 17 minuta, izbacujući između 170 i 210 litara vode. Zanimljivo je da je Mali Gejzer nastao tokom eksperimenta u vezi sa povezivanjem sa Glavnim Izvorom. Tada su, prilikom bušenja, na dubini od dvanaest metara naišli na ovaj izvor, koji se pokazao kao neznatno uticajan na Glavni izvor. Ovo povremeno izbacivanje vode u mlazovima nastaje zbog velike količine nakupljenih gasova koji podižu vodu dok ne prsne zajedno sa gasovima.",
+          "LITTLE_GEYSER_SPRING_LOCATION": "Izvor se nalazi na mestu eksperimenta u vezi sa povezivanjem sa Glavnim Izvorom.",
+          "SPAS_SPRING_TITLE": "Izvor \"Banje\"",
+          "SPAS_SPRING_DESCRIPTION": "Još 1936. godine izgrađena je prva fontana na ovom izvoru, koja je imala konstantan protok vode. Međutim, nakon niza neopreznih godina, došlo je do zagađenja i voda prestaje da teče. Devetnaest godina kasnije, obavljena je rekapitalizacija i izvor ponovo proizvodi vodu brzinom od 13 mL/s.",
+          "SPAS_SPRING_LOCATION": "Izvor je sakriven samo 50 metara od reke Banjske Donje Banje.",
+          "SNEZNIK_SPRING_TITLE": "Izvor \"Snežnik\"",
+          "SNEZNIK_SPRING_DESCRIPTION": "Ovaj izvor je pronađen drugim bušenjem, 1954. godine, na dubini od 17 metara. Voda neprekidno izbija izuzetnom brzinom od 0,28 litara u sekundi. Okružen je prelepim grabovima, pa se često naziva \"Snežak ispod grabova\".",
+          "SNEZNIK_SPRING_LOCATION": "Izvor je okružen prelepim grabovima.",
+          "B4_SPRING_TITLE": "Izvor \"B-4\"",
+          "B4_SPRING_DESCRIPTION": "Izvor u ovoj banji smešten je na najvećoj dubini, preko 1200 metara. Izgrađena je metalna konstrukcija iznad ovog bunara, a voda iz njega izlazi brzinom od 33 litara u sekundi. Topla voda iz ovog izvora koristi se za zagrevanje hotela. Nalazi se u Jezerištu (Gornja banja).",
+          "B4_SPRING_LOCATION": "Izvor se nalazi u Jezerištu (Gornja banja).",
+          "HISAR_SPRING_TITLE": "Izvor \"Hisar\"",
+          "HISAR_SPRING_DESCRIPTION": "Prilikom bušenja na mestu gde je trebalo izgraditi novi hotel, još 1954. godine, na dubini od oko 6 metara, otkriven je novi izvor. Izlazi vrlo sporo, samo 11 mL/s.",
+          "HISAR_SPRING_LOCATION": "Izvor se nalazi na mestu gde je trebalo izgraditi novi hotel.",
+          "JABLANICA_SPRING_TITLE": "Izvor \"Jablanica\"",
+          "JABLANICA_SPRING_DESCRIPTION": "Prilikom bušenja, na dubini od manje od dvanaest metara, pronađen je ovaj izvor, koji daje 0,37 litara vode u sekundi. Izgrađena je fontana slobodnog toka. Nalazi se u Gornjoj Banji, nedaleko od izvora \"Zdravlje\".",
+          "JABLANICA_SPRING_LOCATION": "Izvor se nalazi u Gornjoj Banji, nedaleko od izvora \"Zdravlje\".",
+          "SUZICA_SPRING_TITLE": "Izvor \"Suza\"",
+          "SUZICA_SPRING_DESCRIPTION": "Dobio je ime po specifičnosti svog porekla. Za razliku od većine izvora čija voda potiče iz podzemnih tokova, ovaj izvor nastaje od atmosferske vode koja se čisti, filtrira i mineralizuje kroz stene. \"Suza\", kako sugeriše njegovo dvojako simboličko ime, daje samo 0,005 litara u sekundi. Takođe se nalazi u neposrednoj blizini izvora \"Zdravlje\", kao i izvora \"Jablanica\".",
+          "SUZICA_SPRING_LOCATION": "Izvor se nalazi u neposrednoj blizini izvora \"Zdravlje\", kao i izvora \"Jablanica\".",
+          "BOROVAC_SPRING_TITLE": "Izvor \"Borovac\"",
+          "BOROVAC_SPRING_DESCRIPTION": "Na dubini od oko deset metara, tokom bušenja, otkriven je i izvor Borovac. Njegova voda izvire brzinom od 29 mL/s.",
+          "BOROVAC_SPRING_LOCATION": "Izvor se nalazi u neposrednoj blizini izvora \"Banje\".",
+          "HEALTH_SPRING_TITLE": "Izvor \"Zdravlje\"",
+          "HEALTH_SPRING_DESCRIPTION": "Da nije jedan od lekovitih izvora koji su izuzetno korisni za naše zdravlje, ne bi nosio ovo ime. Fontana sa slobodnim tokom vode izgrađena je pored njega, pedesetih godina prošlog veka. Sakriven je ispod Aragonske stene u Gornjoj Banji.",
+          "HEALTH_SPRING_LOCATION": "Izvor je sakriven ispod Aragonske stene u Gornjoj Banji.",
+          "BLATISTE_SPRINGS_TITLE": "Tri izvora u \"Blatištu\"",
+          "BLATISTE_SPRINGS_DESCRIPTION": "Ovi izvori su od velikog značaja zbog primene peloidne terapije koja se primenjuje u Sijarinskoj banji. To su topli izvori i iz njih se pune dva bazena i blatsko jezero.",
+          "INHALATION_SPRING_TITLE": "Izvor za inhalaciju",
+          "INHALATION_SPRING_DESCRIPTION": "S obzirom da se ovaj izvor nalazi na prilično visokoj nadmorskoj visini u poređenju sa drugim termomineralnim izvorima u ovom regionu, bušenje za njega nije bilo planirano. Međutim, sasvim slučajno, kako to obično biva, inženjer Kapetanović primetio je da je stena na ovom mestu izuzetno topla i kao da \"znoji\". Na malo manje od 10 metara, tokom bušenja, otkriven je neverovatan izvor veoma tople vode. Njegova temperatura je visoka kao 70°C, a brzina protoka iznosi 6,8 litara u sekundi. Nalazi se na poznatom padu \"Bungoj\", koji se smatra \"živim\" jer se često događaju različiti zemljotresi na njemu, što ima uticaj na snagu izbijanja vode.",
+          "INHALATION_SPRING_LOCATION": "Izvor se nalazi na poznatom padu \"Bungoj\".",
+          "KISELJAK_SPRING_TITLE": "Izvor \"Kiseljak\"",
+          "KISELJAK_SPRING_DESCRIPTION": "Kao što mu ime sugerira, ovaj izvor daje vodu koja ima kiseli ukus. Oni koji su je pili kažu da je ovaj kiseli ukus zapravo veoma prijatan za piće. Na mestu izvora izgrađen je betonski bunar.",
+
+
+      "Diseases Treated and Cured in Sijarinska Banja": "Bolesti koje se leče i izlečuju u Sijarinskoj Banji",
+      "Therapies are conducted at the Institute for Specialized Rehabilitation 'Sijarinska Banja' - Hotel 'Geyzer'.": "Terapije se sprovode u Institutu za specijalizovanu rehabilitaciju 'Sijarinska Banja' - Hotelu 'Gejzer'.",
+      "Within this complex, there is modern equipment for various forms of therapy:": "U okviru ovog kompleksa, postoji moderna oprema za različite oblike terapije:",
+
+        "The waters of this spa and the therapies applied in this specialized institution help with the following types of diseases:": "Vode ove banje i terapije primenjene u ovoj specijalizovanoj instituciji pomažu kod sledećih vrsta bolesti:",
+        "Term": "Termin",
+        "Species": "Vrsta",
+          "Spine and back problems": "Problemi sa kičmom i leđima",
+          "Several types of rheumatism": "Više vrsta reumatizma",
+          "Other diseases of the musculoskeletal system": "Druge bolesti mišićno-koštanog sistema",
+          "Gynecological problems": "Ginekološki problemi",
+          "Diseases of the lungs and other respiratory organs": "Bolesti pluća i drugih respiratornih organa",
+          "Conjunctivitis": "Konjuktivitis",
+          "Diabetes": "Dijabetes",
+          "Anemia": "Anemija",
+          "Some forms of neurosis and states of psychophysical exhaustion of the organism;": "Neke forme neuroza i stanja psihofizičke iscrpljenosti organizma;",
+          "Diseases of the kidneys and urinary tract": "Bolesti bubrega i urinarnog trakta",
+          "Diseases of bile, bile ducts, pancreas and liver": "Bolesti žuči, žučnih kanala, pankreasa i jetre",
+          "Diseases of the digestive tract": "Bolesti digestivnog trakta",
+          "Skin diseases": "Bolesti kože",
+              "sciatica, lumbago, spondylosis": "( išijas, lumbago, spondiloza )",
+              "chronic, acute...": "( hroničan, akutan...)",
+              "arthrosis, conditions after injuries...": "( artroza, stanja posle povreda...)",
+              "sterility, inflammation": "( sterilitet, upala )",
+              "chronic bronchitis, bronchial asthma, laryngitis": "( hronični bronhitis, bronhijalna astma, laringitis )",
+              "bacterial, viral, allergic, chemical": "( bakterijski, virusni, alergijski, hemijski )",
+              "type 1, type 2 and gestational diabetes": " ( tip 1, tip 2 i gestacijski dijabetes )",
+              "Iron": " ( anemija zbog nedostatka gvožđa, anemije zbog nedostatka vitamina )",
+              "post": "( posttraumatska stanja nakon preloma ili hirurškog uklanjanja bubrežnih kamenaca, peska u urinarnom traktu, različite upale urinarnog trakta )",
+              "stomach ulcers, chronic gastritis": "( čirevi na želucu, hronični gastritis )",
+              "eczema": "( ekcem )",
+
+              "PARAGRAPH7": "Pored lekovitih izvora, raznih terapija i atraktivnih gejzira, boravak u Sijarinskoj Banji ima još nešto da ponudi svojim posetiocima - <br><br>na primer, uslovi ovde su idealni za lov i ribolov, postoji mnogo terena za male sportove, soba za šah, unutrašnji bazen... <br>Postoji mnogo opcija za zabavne-rekreativne i sportske aktivnosti. <br><br>Od kulturno-istorijskih spomenika, ostaci carskog grada, odnosno carskog grada Justijan Prvi iz ranog Vizantijskog perioda, imaju veći značaj.<br><br>Sijarinska Banja je jedna od najbogatijih banja u našoj zemlji po broju izvora, takođe se ističe po svojim atraktivnim gejzirima sa toplom vodom, koji su vrlo retki, i upotpunjuje svoju turističku ponudu interesantnim rekreativnim sadržajem kao i izletima od kulturnog i istorijskog značaja.<br>"
+
+          
+              
+              
+
+          
+        
+      
+      
+          
+          
+
+        
+        
+      
+      
+      
+
+    
+    
+
+
+      
+    
+    
      
     
     

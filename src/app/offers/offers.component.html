@@ -1,186 +1,115 @@
- <!-- <section class="book">
-    <div class="container flex_space">
-        <div class="text">
-            <h1><span>Book</span> Your Rooms</h1>
-        </div>
-        <div class="form">
-            <form class="grid" action="https://formsubmit.co/dragananikolicsobe@gmail.com" method="POST">
-                <input type="date" placeholder="Araival date">
-                <input type="date" placeholder="Departure date">
-                <input type="number" placeholder="Adults">
-                <input type="number" placeholder="Children">
-                <input type="submit" value="CHECK AVAILABILITY" placeholder="CHECK AVAILABILITY">
 
-            </form>
-        </div>
-    </div>
-</section>  -->
-<!-- 
-    visak kalendar
-    <section style="width: 200px;">
-    <mat-calendar></mat-calendar>
-</section> -->
-
-<!-- <div>
-<full-calendar [options]="calendarOptions"></full-calendar>
-</div> -->
-<!-- <ng-template #template>
-    <div class="modal-header bg-primary text-white">
-        <h4 class="modal-title pull-left">sanskars presenty report</h4>
-        <button type="button" class="btn-close close pull-right" aria-label="Close" (click)="modalRef?.hide()">
-            <span aria-hidden="true" class="visually-hidden"> &times;</span>
-        </button>
-    </div>
-    <div class="modal-body">
-        sanskar has {{title}} on {{start |  date}}
-    </div>
-</ng-template> -->
 <div class="back">
 <div class="spa">
-    <h1 class="aboutSpa">About Spa</h1>
-    <p class="text"> 
-      During drilling from October 17 to 19, 1954, on the left side of Jablanica, at a height of 470 meters, 
-      a strong string of hot water over 60 °C appeared. <br>
-     At a depth of 9 meters, 
-      the temperature of the water was so high that further drilling was suspended. <br>
-      The pressure of steam and gases helped a strong column of water to emerge from this source up to a height of 6-8 meters.
-       This is how the geyser was created - the main thing for the Sijarin spa. <br>
-      <br>
-       The water is collected in a small concrete basin from which unused water flows. According to visitors,
-        bathing under this stream has a beneficial effect on calming the nerves. <br> <br>
-      Spa Sijarina is located on the slopes of the Goljak mountain.<br>
-      It is 300+ kilometers away from Belgrade. The spa can be reached via the highway Belgrade - Niš - Leskovac, 
-      then the regional road Leskovac - Priština. <br>
-      It is surrounded by incredible hills and glades covered with lush pine and oak forests, so the air is fresh and clean.<br>
-    </p>
+    <h1 class="aboutSpa">{{"About Spa" | translate}}</h1>
+    <p class="text" [innerHTML]="'PARAGRAPH6' | translate"></p>
+   
     <p class="text">
-      In Sijarinska Banja, pools and spa centers play a key role in providing relaxing experiences,
-       recreation and therapeutic treatments.
-       Here is an overview of the pool and spa facilities at Sijarinska Banja:<br><br>
-       <strong>Pools:</strong><br><br>
-        Indoor pools: <br>
-        Sijarinska Banja can offer indoor pools with thermal water, offering visitors the opportunity to swim in a comfortable 
-        environment all year round.<br> <br>
-        Outdoor pools: <br>During the warmer months, visitors can enjoy the outdoor pools, surrounded by nature and fresh air.<br><br>
+      {{ 'SIJARINSKA_BANJA_DESCRIPTION' | translate }}<br><br>
+      <strong>{{ 'POOLS_TITLE' | translate }}:</strong><br><br>
+        {{ 'INDOOR_POOLS_DESCRIPTION' | translate }}<br><br>
+        {{ 'OUTDOOR_POOLS_DESCRIPTION' | translate }}<br><br>
 
-        <strong>Spa Centers:</strong><br> <br>
-        Therapeutic Massages:<br>Spas often offer different types of massages,
-        including classical massage, hot stone massage, aromatherapy and other techniques.<br><br>
-        Saunas:<br> Saunas with thermal water provide a relaxing experience with additional therapeutic effects. 
-        Visitors can use Finnish saunas, steam baths or infrared saunas.<br><br>
-        There are two types of saunas:<br><br>
-            <strong>Finnish sauna (dry sauna)</strong><br>
-            &nbsp; &nbsp; &nbsp;   temperature 80-100 degrees<br>
-            &nbsp;  &nbsp;  &nbsp;  air humidity 10-15 %<br>
-            &nbsp;  &nbsp;  &nbsp; residence time 10-15 minutes<br>
-            <strong>Bio sauna (aromatherapy sauna)</strong><br>
-            &nbsp;  &nbsp; &nbsp;  temperature 55-75 degrees<br>
-            &nbsp;  &nbsp; &nbsp;   air humidity 20-40%<br>
-            &nbsp;  &nbsp; &nbsp;  stay time 10-15 minutes<br><br>
+      <strong>{{ 'SPA_CENTERS_TITLE' | translate }}:</strong><br> <br>
+        {{ 'THERAPEUTIC_MASSAGES_DESCRIPTION' | translate }}<br><br>
+        {{ 'SAUNAS_DESCRIPTION' | translate }}<br><br>
+        {{ 'SAUNAS_TYPES_DESCRIPTION' | translate }}<br><br>
+            <strong>{{ 'FINNISH_SAUNA_TITLE' | translate }}</strong><br>
+            &nbsp; &nbsp; &nbsp;   {{ 'FINNISH_SAUNA_TEMPERATURE' | translate }}<br>
+            &nbsp;  &nbsp;  &nbsp;  {{ 'FINNISH_SAUNA_HUMIDITY' | translate }}<br>
+            &nbsp;  &nbsp;  &nbsp; {{ 'FINNISH_SAUNA_RESIDENCE_TIME' | translate }}<br>
+            <strong>{{ 'BIO_SAUNA_TITLE' | translate }}</strong><br>
+            &nbsp;  &nbsp; &nbsp;  {{ 'BIO_SAUNA_TEMPERATURE' | translate }}<br>
+            &nbsp;  &nbsp; &nbsp;  {{ 'BIO_SAUNA_HUMIDITY' | translate }}<br>
+            &nbsp;  &nbsp; &nbsp;  {{ 'BIO_SAUNA_STAY_TIME' | translate }}<br><br>
 
-        Hydrotherapy: <br>Specialized therapies that use thermal water, hydromassage and other hydrotherapy techniques to 
-        improve health and relaxation.<br><br>
-        Cosmetic Treatments: <br>Spas usually offer a variety of cosmetic treatments, such as facials, manicures, pedicures, 
-        and other beauty services.
-    </p>
-    <h1 class="MedSpr">Medicinal springs</h1>
-    <p class="text"> 
-        Eighteen main mineral springs used for healing purposes in this spa are located next to each other. There are all eighteen of them in an area of less than one kilometer, <br>
-        and it is very interesting that each of them has different characteristics (temperature and physical-chemical composition). The temperatures of these mineral waters range in astonishing heights, <br>
-        from 32 to 78°C, therefore they belong to one of the warmest waters of our country. The total number of springs discovered in this spa is 26, but the other 8 have no medicinal properties. <br>
-        The most important are:<br><br>
+        {{ 'HYDROTHERAPY_DESCRIPTION' | translate }}<br><br>
+        {{ 'COSMETIC_TREATMENTS_DESCRIPTION' | translate }}
+</p>
 
-        <strong>Spring "Raj"</strong> - Water from this spring contains sodium, fluorine, hydrocarbonate and lithium in its chemical composition. In 1936, a fountain was built at the place of its spring. <br>
-        The water is constantly flowing, but not at a very high speed. It is located along the right bank of the Banjska River.<br><br>
-        
-        <strong>"Main spring"</strong>  - This spring is mostly used in therapeutic treatment because its water is carried directly into the bottomless baths through a thirty-meter-long channel. <br>
-        The speed of water gushing is as high as 0.9 liters per second, accompanied by gases. It is tucked three meters above the water level in the river Donje Banje.<br><br>
-        
-        <strong>The spring "Little Geyser"</strong> - it did not get its name by chance, because it springs up like a waterfall and not constantly, but at times. <br>
-        The water that gushes out in spurts like this does so every 12 to 17 minutes, throwing out between 170 and 210 liters of water.<br>
-        The interesting thing is that the Small Geyser was created during an experiment regarding the connection with the Main Spring. <br>
-        Then, during drilling, at a depth of twelve meters, they came across this source, which turned out to have an insignificant influence on the Main source. <br>
-        This occasional ejection of water in spurts occurs due to a large amount of accumulated gases that raise the water until it bursts out together with the gases.<br><br>
-        
-        <strong>"Spas"</strong> spring - Back in 1936, the first fountain was built at this spring, which had a constant flow of water. <br>
-        However, after a series of careless years, pollution has occurred and the water stops flowing. Nineteen years later, recapture was done and the spring is again producing water at a rate of 13 mL/s.<br>
-        It is tucked away only 50 meters from the Banjska river Donje Banja.<br><br>
-        
-        <strong>Spring "Snežnik"</strong> - This spring was found by another drilling, in 1954, at a depth of 17 meters. Water is constantly gushing out at an enviable speed of 0.28 liters per second.<br>
-        It is surrounded by beautiful hornbeams, so it is often called the "Snowman under the hornbeams".<br><br>
-        
-        <strong>Spring "B-4" </strong>- The spring in this spa located at the greatest depth, over 1200 meters.<br>
-        A metal structure was built over this well, and water flows out of it at a rate of 33 liters per second. Hot water from this source is used to heat the hotel. It is located in Jezerište (Gornja spa).<br><br>
-        
-        <strong>Spring "Hisar"</strong> - During drilling at the place where a new hotel was to be built, back in 1954, at a depth of about 6 meters, a new spring was discovered. It comes out very slowly, only 11 mL/s.<br>
-        Spring "Jablanica" - During drilling, at a depth of less than twelve meters, this spring was found, which gives 0.37 liters of water per second. A free-flowing fountain was also built. <br>
-        It is located in Gornja Banja, not far from the "Zdravlje" spring.<br><br>
-        
-        <strong>Spring "Suzica"</strong> - got its name from the specificity of its origin. Unlike most springs whose water consists of underground streams, this spring is created from atmospheric water that is cleaned, <br>
-        filtered and mineralized through the rocks. "Teardrop", as its ambiguous symbolic name suggests, gives only 0.005 liters per second. It is also located in the immediate vicinity of the "Zdravlje" spring, <br>
-        as well as the "Jablanica" spring.<br><br>
-        
-        <strong>"Borovac"</strong> spring - At a depth of about ten meters, the Borovac spring was also discovered during drilling. Its water springs at a speed of 29 mL/s. <br>
-        It is located in the immediate vicinity of the Spas spring.<br><br>
-        
-       <strong> Source "Health"</strong> - If it were not one of the healing sources that are extremely beneficial to our health, it would not bear this name. <br>
-        A fountain with free flowing water was built near him, in the fifties of the last century. It is tucked under an Aragonese rock in Gornja Banja.<br><br>
-        
-        <strong>Three springs in "Blatište"</strong> - these springs are of great importance because of the peloid therapy that is applied in Sijarinska banja. <br>
-        They are hot springs and two pools and a mud pond are filled from them.<br><br>
-        
-        <strong>"Inhalation Spring"</strong> - Given that this spring is located at a fairly high altitude compared to other thermo-mineral springs in this region, drilling for it was not planned. <br>
-        However, quite by chance, as it usually happens, engineer Kapetanović noticed that the rock in this place was extremely warm and as if it was "sweating". <br>
-        At a little less than 10 meters, during drilling, they discovered an incredible source of very hot water. Its temperature is as high as 70°C, and the flow rate is 6.8 liters per second. <br>
-        It is located on the well-known slope of "Bungoj", which is said to be "alive" because various earthquakes often occur on it, which have an impact on the strength of the springing water.<br><br>
-        
-        <strong>"Kiseljak"</strong> spring - As its name suggests, this spring gives water that has a sour taste. Those who have drunk it say that this sour taste is actually very pleasant to drink. <br>
-        A concrete well was built at the place of the spring.<br><br>
-    </p>
-    <h1 class="Diseases">Diseases that are treated and cured in Sijarinska Banja</h1>
-    <p class="text">
-        Therapies are carried out at the Institute for Specialized Rehabilitation "Sijarinska Banja" - Hotel "Geyzer".<br>
-        Within this complex, there is modern equipment for various forms of therapy: <br>
-    </p>
+<h1 class="MedSpr">{{ 'MEDICINAL_SPRINGS_TITLE' | translate }}</h1>
+<p class="text"> 
+    {{ 'MEDICINAL_SPRINGS_DESCRIPTION' | translate }} <br>
+    {{ 'MEDICINAL_SPRINGS_DETAILS' | translate }}<br><br>
+
+    <strong>{{ 'RAJ_SPRING_TITLE' | translate }}</strong> - {{ 'RAJ_SPRING_DESCRIPTION' | translate }}<br>
+    {{ 'RAJ_SPRING_LOCATION' | translate }}<br><br>
+    
+    <strong>{{ 'MAIN_SPRING_TITLE' | translate }}</strong> - {{ 'MAIN_SPRING_DESCRIPTION' | translate }}<br>
+    {{ 'MAIN_SPRING_LOCATION' | translate }}<br><br>
+    
+    <strong>{{ 'LITTLE_GEYSER_SPRING_TITLE' | translate }}</strong> - {{ 'LITTLE_GEYSER_SPRING_DESCRIPTION' | translate }}<br>
+    {{ 'LITTLE_GEYSER_SPRING_LOCATION' | translate }}<br><br>
+    
+    <strong>{{ 'SPAS_SPRING_TITLE' | translate }}</strong> - {{ 'SPAS_SPRING_DESCRIPTION' | translate }}<br>
+    {{ 'SPAS_SPRING_LOCATION' | translate }}<br><br>
+    
+    <strong>{{ 'SNEZNIK_SPRING_TITLE' | translate }}</strong> - {{ 'SNEZNIK_SPRING_DESCRIPTION' | translate }}<br>
+    {{ 'SNEZNIK_SPRING_LOCATION' | translate }}<br><br>
+    
+    <strong>{{ 'B4_SPRING_TITLE' | translate }}</strong> - {{ 'B4_SPRING_DESCRIPTION' | translate }}<br>
+    {{ 'B4_SPRING_LOCATION' | translate }}<br><br>
+    
+    <strong>{{ 'HISAR_SPRING_TITLE' | translate }}</strong> - {{ 'HISAR_SPRING_DESCRIPTION' | translate }}<br>
+    {{ 'HISAR_SPRING_LOCATION' | translate }}<br><br>
+    
+    <strong>{{ 'JABLANICA_SPRING_TITLE' | translate }}</strong> - {{ 'JABLANICA_SPRING_DESCRIPTION' | translate }}<br>
+    {{ 'JABLANICA_SPRING_LOCATION' | translate }}<br><br>
+    
+    <strong>{{ 'SUZICA_SPRING_TITLE' | translate }}</strong> - {{ 'SUZICA_SPRING_DESCRIPTION' | translate }}<br>
+    {{ 'SUZICA_SPRING_LOCATION' | translate }}<br><br>
+    
+    <strong>{{ 'BOROVAC_SPRING_TITLE' | translate }}</strong> - {{ 'BOROVAC_SPRING_DESCRIPTION' | translate }}<br>
+    {{ 'BOROVAC_SPRING_LOCATION' | translate }}<br><br>
+    
+    <strong>{{ 'HEALTH_SPRING_TITLE' | translate }}</strong> - {{ 'HEALTH_SPRING_DESCRIPTION' | translate }}<br>
+    {{ 'HEALTH_SPRING_LOCATION' | translate }}<br><br>
+    
+    <strong>{{ 'BLATISTE_SPRINGS_TITLE' | translate }}</strong> - {{ 'BLATISTE_SPRINGS_DESCRIPTION' | translate }}<br><br>
+    
+    <strong>{{ 'INHALATION_SPRING_TITLE' | translate }}</strong> - {{ 'INHALATION_SPRING_DESCRIPTION' | translate }}<br>
+    {{ 'INHALATION_SPRING_LOCATION' | translate }}<br><br>
+    
+    <strong>{{ 'KISELJAK_SPRING_TITLE' | translate }}</strong> - {{ 'KISELJAK_SPRING_DESCRIPTION' | translate }}<br><br>
+</p>
+
+<h1 class="Diseases">{{ "Diseases Treated and Cured in Sijarinska Banja" | translate }}</h1>
+<p class="text">
+    {{ "Therapies are conducted at the Institute for Specialized Rehabilitation 'Sijarinska Banja' - Hotel 'Geyzer'." | translate }}<br>
+    {{ "Within this complex, there is modern equipment for various forms of therapy:" | translate }}
+</p>
+
     <br>
     <div class="mat-elevation-z8">
-        <h2 class="table-heading"> The waters of this spa and the therapies applied in this specialized institution help with the following types of diseases:</h2>
-        <table mat-table [dataSource]="dataSource">
+      <h2 class="table-heading">{{ 'The waters of this spa and the therapies applied in this specialized institution help with the following types of diseases:' | translate }}</h2>
+      <table mat-table [dataSource]="dataSource">
           <!-- Position Column -->
           <ng-container matColumnDef="position">
-            <th mat-header-cell *matHeaderCellDef> </th>
-            <td mat-cell *matCellDef="let element"> {{element.position}} </td>
+              <th mat-header-cell *matHeaderCellDef> </th>
+              <td mat-cell *matCellDef="let element"> {{ element.position }} </td>
           </ng-container>
           <!-- Name Column -->
           <ng-container matColumnDef="name">
-            <th mat-header-cell *matHeaderCellDef> Term </th>
-            <td mat-cell *matCellDef="let element"> {{element.name}} </td>
+              <th mat-header-cell *matHeaderCellDef> {{ 'Term' | translate }} </th>
+              <td mat-cell *matCellDef="let element"> {{ element.name |translate}} </td>
           </ng-container>
           <!-- Symbol Column -->
           <ng-container matColumnDef="symbol">
-            <th mat-header-cell *matHeaderCellDef> Species </th>
-            <td mat-cell *matCellDef="let element"> {{element.symbol}} </td>
+              <th mat-header-cell *matHeaderCellDef> {{ 'Species' | translate }} </th>
+              <td mat-cell *matCellDef="let element"> {{ element.symbol | translate}} </td>
           </ng-container>
-      
+  
           <tr mat-header-row *matHeaderRowDef="displayedColumns"></tr>
           <tr mat-row *matRowDef="let row; columns: displayedColumns;"></tr>
-        </table>
-        <mat-paginator [pageSizeOptions]="[3, 5, 10, 15]"
-                       showFirstLastButtons
-                       aria-label="Select page of periodic elements">
-        </mat-paginator>
-      </div>
+      </table>
+      <mat-paginator [pageSizeOptions]="[3, 5, 10, 15]" showFirstLastButtons aria-label="Select page of periodic elements"></mat-paginator>
+  </div>
         <br>
         <br>   
         <br>
-    <p>
-        In addition to healing springs, various therapies and attractive Geysers, a stay in Sijarniska Banja has something more to offer its visitors - <br><br>
-        for example, the conditions here are ideal for hunting and fishing, there are many fields for small sports, a chess room, an indoor swimming pool... <br>
-        There are many options for fun-recreational and sports activities. <br><br>
-        Of the cultural-historical monuments, the remains of the Empress's city, that is, the imperial city of Justian Primus from the early Byzantine period, are of greater importance.<br><br>
-        Sijarinska Banja is one of the richest spas in our country in terms of the number of springs,<br> it also stands out for its attractive hot water geysers, which are very rare,
-        and complements its tourist offer with interesting recreational content as well as excursions of cultural and historical significance.<br>
-    </p>
+        <div class="textcontainer">
+          <p [innerHTML]="'PARAGRAPH7' | translate"></p>
+      </div>
 <br>
 <br>
   <!-- lista terapije -->

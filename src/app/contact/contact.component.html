@@ -1,18 +1,18 @@
 <div class="back">
     <img src="http://localhost:4200/assets/images/res.png" class="photo"> 
 <div class="container">
-    <h1>Make a reservation</h1>
+    <h1>{{"Make a reservation" | translate}}</h1>
     
    
     <!-- <form action="https://formspree.io/f/xjvqzwjb" method="POST">  -->
     <form action="https://formsubmit.co/dragananikolicsobe@gmail.com" method="POST" >
-        <input type="text" name="Name" placeholder="Name" required>
-        <input type="text" name="Last Name" placeholder="Last Name" required>
-        <input type="email" name="Email" placeholder="Email" required> 
-        <input type="number" name="Phone number" placeholder="Phone number" required> 
+        <input type="text" name="Name" placeholder="{{'Name' | translate}}" required>
+        <input type="text" name="Last Name" placeholder="{{'Last Name' | translate}}" required>
+        <input type="email" name="Email" placeholder="{{'Email' | translate}}" required> 
+        <input type="number" name="Phone number" placeholder="{{'Phone number' | translate}}" required> 
     
         <mat-form-field appearance="outline" class="cal">
-             <input matInput formControlName="releasedAt" name="Date Araival" placeholder="Date Araival" class="call-input"
+             <input matInput formControlName="releasedAt" name="Date Araival" placeholder="{{'Date Arrival' | translate}}" class="call-input"
                    [matDatepicker]="releasedAtPicker" (click)="releasedAtPicker.open()"
                 required>
             <mat-datepicker-toggle matSuffix [for]="releasedAtPicker"></mat-datepicker-toggle>
@@ -20,21 +20,21 @@
         </mat-form-field>
 
         <mat-form-field appearance="outline" class="cal">
-            <input matInput formControlName="releasedAtt" name="Date Departure"  placeholder="Date Departure" class="call-input"
+            <input matInput formControlName="releasedAtt" name="Date Departure"  placeholder="{{'Date Departure' | translate}}" class="call-input"
                   [matDatepicker]="releasedAtPickerr" (click)="releasedAtPickerr.open()" 
                 required>
            <mat-datepicker-toggle matSuffix [for]="releasedAtPickerr"></mat-datepicker-toggle>
            <mat-datepicker #releasedAtPickerr></mat-datepicker>
          </mat-form-field>
 
-         <input type="number" name="Adults" placeholder="Adults" required>
-         <input type="number" name="Children" placeholder="Children" required>
-         <textarea name="Message" placeholder="Message" required></textarea>
+         <input type="number" name="Adults" placeholder="{{'Adults' | translate}}" required>
+         <input type="number" name="Children" placeholder="{{'Children' | translate}}" required>
+         <textarea name="Message" placeholder="{{'Message' | translate}}" required></textarea>
           
         <input type="hidden" name="_template" value="table">
         <input type="hidden" name="_next" value="http://localhost:4200/assets/img2/one12.jpg">
 
-        <button type="submit" placeholder="CHECK AVAILABILITY">Send</button>
+        <button type="submit">{{"Send"|translate}}</button>
     </form>
 </div>
 </div>
