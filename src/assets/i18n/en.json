@@ -181,7 +181,127 @@
                     "stomach ulcers, chronic gastritis": "( stomach ulcers, chronic gastritis ) ",
                     "eczema": "( eczema )",
 
-                    "PARAGRAPH7":" In addition to healing springs, various therapies and attractive Geysers, a stay in Sijarniska Banja has something more to offer its visitors - <br><br>for example, the conditions here are ideal for hunting and fishing, there are many fields for small sports, a chess room, an indoor swimming pool... <br>There are many options for fun-recreational and sports activities. <br><br>Of the cultural-historical monuments, the remains of the Empress's city, that is, the imperial city of Justian Primus from the early Byzantine period, are of greater importance.<br><br>Sijarinska Banja is one of the richest spas in our country in terms of the number of springs,<br> it also stands out for its attractive hot water geysers, which are very rare,and complements its tourist offer with interesting recreational content as well as excursions of cultural and historical significance.<br>"
+                    "PARAGRAPH7":" In addition to healing springs, various therapies and attractive Geysers, a stay in Sijarniska Banja has something more to offer its visitors - <br><br>for example, the conditions here are ideal for hunting and fishing, there are many fields for small sports, a chess room, an indoor swimming pool... <br>There are many options for fun-recreational and sports activities. <br><br>Of the cultural-historical monuments, the remains of the Empress's city, that is, the imperial city of Justian Primus from the early Byzantine period, are of greater importance.<br><br>Sijarinska Banja is one of the richest spas in our country in terms of the number of springs,<br> it also stands out for its attractive hot water geysers, which are very rare,and complements its tourist offer with interesting recreational content as well as excursions of cultural and historical significance.<br>",
+
+                    
+                      "List of Therapies": "List of Therapies",
+                      "Description of therapies, and subtypes of therapies": "Description of therapies, and subtypes of therapies",
+                      "Hydrotherapy": "Hydrotherapy",
+                      "Electrotherapy": "Electrotherapy",
+                      "Physical - Kinesis Therapy": "Physical - Kinesis Therapy",
+                      "Peloid Therapy": "Peloid Therapy",
+                      "Inhalations": "Inhalations",
+                      
+                      "Types of electrotherapy":"Types of electrotherapy :",
+                      "el":"Electrotherapy is the use of numerous modalities of electric current obtained by means of modern electronic devices for therapeutic purposes. Electrotherapy causes the dilation (expansion) of blood vessels and increases the circulation of blood and lymph,which increases tissue trophicity and promotes the reabsorption of edema and the reduction of swelling. In this way, the inflammatory process is reduced and helps to remove the factors that lead to pain. Electrotherapy has an analgesic effect on pain,which means that it reduces pain very well, by stimulating receptors in the skin and releasing endogenous opioids, as well as by improving blood and lymph circulation. It promotes the regeneration of peripheral nerves and osteogenesis (healing) in bone fractures.",
+                        "Hydrotherapy is a therapeutic practice that uses water for a variety of purposes to improve a person's health and well-being. This type of therapy is often applied in spas and wellness centers, and is used both for the treatment of certain conditions and for relaxation and improvement of the general state of the body.": "Hydrotherapy is a therapeutic practice that uses water for various purposes to improve a person's health and well-being. This type of therapy is often applied in spas and wellness centers and is used for both the treatment of specific conditions and for relaxation and enhancement of overall well-being.",
+                        "Types of hydrotherapy:": "Types of hydrotherapy:",
+                        "Hot and Cold Compresses": "Hot and Cold Compresses",
+                        "The combination of hot and cold compresses can be used to reduce swelling, alleviate pain, and improve circulation. Warm compresses relax muscles, while cold compresses reduce inflammation.": "The combination of hot and cold compresses can be used to reduce swelling, alleviate pain, and improve circulation. Warm compresses relax muscles, while cold compresses reduce inflammation.",
+                        "Warm Bath": "Warm Bath",
+                        "A warm bath has a relaxing effect on muscles and can help reduce stress and tension. Adding specific ingredients such as sea salt or essential oils can enhance the therapeutic effect.": "A warm bath has a relaxing effect on muscles and can help reduce stress and tension. Adding specific ingredients such as sea salt or essential oils can enhance the therapeutic effect.",
+                        "Cold Shower": "Cold Shower",
+                        "A cold shower can be used to stimulate circulation, reduce fatigue, and increase alertness. This technique is often applied as part of a contrast treatment involving hot and cold water.": "A cold shower can be used to stimulate circulation, reduce fatigue, and increase alertness. This technique is often applied as part of a contrast treatment involving hot and cold water.",
+                        "Hydromassage": "Hydromassage",
+                        "Hydromassage involves the use of water jets under pressure to provide a body massage. This can help relax muscles, improve circulation, and reduce stress.": "Hydromassage involves the use of water jets under pressure to provide a body massage. This can help relax muscles, improve circulation, and reduce stress.",
+                        "Swimming": "Swimming",
+                        "Swimming is an excellent exercise engaging various muscle groups, improving cardiovascular health, and providing a relaxing experience.": "Swimming is an excellent exercise engaging various muscle groups, improving cardiovascular health, and providing a relaxing experience.",
+                        "Steam baths": "Steam baths",
+                        "Steam baths use the heat of water vapor to open pores, cleanse the skin, and improve breathing. This type of hydrotherapy is often combined with aromatherapy.": "Steam baths use the heat of water vapor to open pores, cleanse the skin, and improve breathing. This type of hydrotherapy is often combined with aromatherapy.",
+                        
+                          "Galvanic current": "Galvanic current",
+                          "It is a one-way constant current that is used in painful conditions, rheumatic diseases, swelling, nerve injuries, etc. Indications for the application of galvanic current are: neuralgia, neuritis, peripheral lesions and paralysis (accelerates nerve nutrition and recovery), periarthritis, bursitis, tendinitis, enthesopathies (inflammation of soft tissues around the joints), arthrosis, arthritis (painful knees, hips, wrist joints), cervical and lumbar syndrome, post-traumatic swellings and hematomas, distortions (soft tissue injuries).": "It is a one-way constant current that is used in painful conditions, rheumatic diseases, swelling, nerve injuries, etc. Indications for the application of galvanic current are: neuralgia, neuritis, peripheral lesions and paralysis (accelerates nerve nutrition and recovery), periarthritis, bursitis, tendinitis, enthesopathies (inflammation of soft tissues around the joints), arthrosis, arthritis (painful knees, hips, wrist joints), cervical and lumbar syndrome, post-traumatic swellings and hematomas, distortions (soft tissue injuries).",
+
+                          
+                            "interference_currents": "interference currents",
+                            "interference_currents_description": "Interference current is an alternating current obtained by crossing, i.e., by the interference of two currents of medium frequency and are also called 'crossed currents'. They are applied by means of four electrodes of various shapes and sizes that are placed on the skin. Recently, bipolar interference currents applied through two electrodes have been increasingly used. The advantage of this therapeutic procedure is the deep effect in the tissues at the point where the currents cross (e.g., the hip joint). It is also the only form of electrotherapy that can be applied to patients with the presence of metal in the body (e.g., after implanting an artificial hip). The therapeutic effect on tissues is multiple: reduction of pain (analgesic effect), reduction of swelling (anti-edematous), reduction of inflammation (anti-inflammatory), acceleration of tissue regeneration (improves tissue oxygen supply), promotes osteogenesis, i.e., bone healing after a fracture.",
+               
+          "magnetotherapy": "Magnetotherapy",
+          "magnetotherapy_description": "Magnetotherapy involves the application of a constant or changing magnetic field of low frequency for therapeutic purposes.",
+           "sonophoresis_and_ultrasound": "Sonophoresis and ultrasound",
+          "sonophoresis_and_ultrasound_description": "Ultrasound therapy (UZ) involves the therapeutic use of sound waves of about 1 million oscillations or 1000 kHz. The effect on the tissue is multiple. The basic principle of action is mechanical action, which consists in the high-frequency wave movement of sound waves, which leads to the mechanical vibration of tissue particles and thus to 'micromassage' of the tissue. Other effects are: expands blood vessels (vasodilatation), acts against pain (analgesic), against tissue inflammation (anti-inflammatory), against swelling (antiedematous), reduces muscle 'spasm' (spasmolytic), reduces scars (fibrinolytic), increases excitability of motor nerves.",
+
+            "diadynamic_currents": "Diadynamic currents (DDS)",
+            "diadynamic_currents_description": "Diadynamic currents are low-frequency currents of semi-sinusoidal shape that are applied in the form of five modulations, where each modulation has a specific therapeutic effect. The therapeutic effect is multiple: analgesic effect (against pain), spasmolytic (reduces muscle spasm), vasodilator (normalizes impaired circulation), anti-inflammatory effect.",
+
+              "electro_stimulation": "Electro-stimulation",
+              "electro_stimulation_description": "Electrostimulation is a therapeutic procedure with low-frequency currents in which stimuli of a certain intensity, frequency and duration are used in order to cause muscle contraction in muscles that for certain reasons are unable to function in a normal way. Muscle stimulation, i.e., contraction can be caused by electrical impulses through the motor point of the muscle (the place where the nerve enters the muscle) or the motor point of the nerve (the place where the nerve trunk is the most superficial, closest to the surface of the skin). This method is applied by means of several types of electrodes - plates (for stimulation of a group of muscles at once) or point electrodes (for stimulation of individual muscles).",
+              "electrophoresis": "Electrophoresis",
+              "electrophoresis_description": "Therapeutic procedure of introducing drugs into the body by means of one-way constant or one-way impulse current of medium frequency. With this method, it is possible for the medicine to be introduced to the place of injury or inflammation in the shortest period of time and to work immediately. This method is applied by means of electrodes that are wrapped in gauze and soaked in distilled water and evenly sprayed with a drug solution (corticosteroids, analgesics, antibiotics). The advantages of this therapy are the prolonged effect of the drug because a depot is created in the skin and the drug is gradually released into the tissue, acting in maximum concentration directly at the site of the pathological process. This also avoids damage to the gastrointestinal tract and bypasses the liver's blood flow, and thus its damage.",
+
+              "Kinesitherapy":"Kinesitherapy",
+
+                "kinesitherapy_text": "Kinesitherapy, corrective therapy from (Greek: kinesis - movement, therapeio - treatment) is a type of physical therapy and a field of sports medicine, which is characterized by the application of movements aligned with the therapeutic requirement and the patient as a whole. <br> It is essentially based on the application of exercises, based on scientific principles, which are adapted to increase the strength, <br> endurance and mobility of persons with functional limitations or those (athletes) who require prolonged physical fitness, and therefore its main objectives are:",
+                "prevention_of_damage": "Prevention of damage to the function of the locomotor system",
+                "improvement_of_function": "Improvement of segmental and general locomotor function. The main prerequisite for achieving this goal is a good evaluation of the locomotor system.",
+                "improvement_or_treatment_of_impairment": "Improvement or treatment of impaired functions of the cardiovascular, respiratory and other systems",
+
+                "peloid_therapy": "Peloid Therapy",
+                  "peloid_therapy_description": "Peloid therapy is a type of therapy that relies on the use of thermal mud, clay, or other sedimentary materials in the treatment of various health problems. This type of therapy is often used in spas and resorts for its potential therapeutic effects on the skin, muscles, and joints.",
+                  "types_of_peloid_therapy": "Types of peloid therapy:",
+                  "peloid_bath": "Peloid Bath",
+                  "peloid_bath_description": "The patient is completely or partially immersed in warm water in which sedimentary materials such as mud or clay have been dissolved. This bath can have a positive effect on circulation, relaxing muscles, and improving skin texture.",
+                  "peloid_wraps": "Peloid Wraps",
+                  "peloid_wraps_description": "Warm peloid wraps are applied directly to specific areas of the body that require treatment. This can help reduce pain, swelling, and improve local circulation.",
+                  "peloid_massages": "Peloid Massages",
+                  "peloid_massages_description": "The therapist can use peloid preparations during the massage to enhance the therapeutic effects. This is often used in combination with other forms of therapy.",
+
+                  
+                    "inhalation_therapy": "Inhalation Therapy",
+                    "inhalation_therapy_description": "Inhalation therapy is a form of treatment that involves the inhalation of various substances, such as medicinal vapors, to provide therapeutic benefits, especially for respiratory conditions. This type of therapy is commonly used in spa and health resorts to address respiratory issues and promote overall well-being.",
+                    "types_of_inhalations": "Types of inhalations:",
+                    "steam_inhalation": "Steam Inhalation",
+                    "steam_inhalation_description": "In this method, individuals inhale steam generated from hot water. It can help soothe respiratory passages, alleviate congestion, and provide relief from conditions such as colds and sinusitis.",
+                    
+
+                      "transcutaneous_electrical_nerve_stimulation": "Transkutan elektrisk nervstimulering (TENS)",
+                      "transcutaneous_electrical_nerve_stimulation_description": "Transkutan elektrisk nervstimulering (TENS) är en terapi som använder lågspänningselektriska strömmar för att lindra smärta. Det är särskilt effektivt för behandling av akuta och kroniska smärttillstånd.",
+  
+                      
+                        "Home": "Home",
+                        "Accommodation": "Accommodation",
+                        "Single room": "Single room",
+                        "Double room": "Double room",
+                        "Studio apartmens": "Studio apartments",
+                        "Attic log cabin": "Attic log cabin",
+                        "First floor log cabin": "First floor log cabin",
+                        "Image gallery": "Image gallery",
+                        "Contact us": "Contact us",
+                        "Aboutt Spa": "About Spa",
+
+                        "Address" :"Address" ,
+                        "Information":"Information",
+                        "Maps":"Maps",
+                        "Folow us":"Folow us"
+
+                      
+                      
+
+
+                  
+                    
+                  
+                  
+                
+                
+
+              
+              
+            
+            
+          
+          
+                            
+                            
+                          
+                          
+                        
+                        
+                      
+                      
+
+                  
+                    
 
            
                     

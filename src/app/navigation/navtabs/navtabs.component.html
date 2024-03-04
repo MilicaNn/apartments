@@ -4,7 +4,7 @@
     <a mat-tab-link routerLink="/" 
     routerLinkActive #home="routerLinkActive" 
     [active]="home.isActive" >
-    Home
+    {{ "Home" | translate }}
     </a>
 <!-- Ovde smo koristili Nested menu iz angular material -->
 <a mat-tab-link routerLink="/accomodation" routerLinkActive 
@@ -15,41 +15,41 @@
   <button mat-menu-item>rooms</button>
   <button mat-menu-item>apartement</button>  
   </mat-menu>-->
-<button mat-tab-link [matMenuTriggerFor]="acmdt" class="acc"> Accommodation</button>
+<button mat-tab-link [matMenuTriggerFor]="acmdt" class="acc"> {{ "Accommodation" | translate }}</button>
 <mat-menu #acmdt="matMenu">
-  <button mat-menu-item [matMenuTriggerFor]="rooms" >Rooms</button>
-  <button mat-menu-item [matMenuTriggerFor]="apartments" >Apartments</button>
-  <button mat-menu-item [matMenuTriggerFor]="logcabin">Log cabin</button>
+  <button mat-menu-item [matMenuTriggerFor]="rooms" >{{ "Rooms"|  translate }}</button>
+  <button mat-menu-item [matMenuTriggerFor]="apartments" >{{ "Apartments"| translate }}</button>
+  <button mat-menu-item [matMenuTriggerFor]="logcabin">{{ "Log cabin" | translate }}</button>
 </mat-menu>
 <mat-menu #rooms="matMenu">
-  <button mat-menu-item routerLink="/single" >Single room</button>
-  <button mat-menu-item routerLink="/double" >Double room</button>
+  <button mat-menu-item routerLink="/single" >{{ "Single room" | translate }}</button>
+  <button mat-menu-item routerLink="/double" >{{ "Double room" | translate }}</button>
 </mat-menu>
 <mat-menu #apartments="matMenu">
-  <button mat-menu-item routerLink="/studio" >Studio apartmens</button>
+  <button mat-menu-item routerLink="/studio" >{{ "Studio apartmens" | translate }}</button>
 </mat-menu>
 <mat-menu #logcabin="matMenu">
-  <button mat-menu-item routerLink="/logCabin" >Attic log cabin</button>
-  <button mat-menu-item routerLink="/logCabin" >First floor log cabin</button>
+  <button mat-menu-item routerLink="/logCabin" >{{ "Attic log cabin" | translate }}</button>
+  <button mat-menu-item routerLink="/logCabin" >{{ "First floor log cabin" | translate }}</button>
 </mat-menu>
 
 </a>
     <a mat-tab-link routerLink="/gallery" 
     routerLinkActive #gallery="routerLinkActive" 
     [active]="gallery.isActive">
-    Image gallery
+  {{ "Image gallery" | translate}}
     </a>
 
     <a mat-tab-link routerLink="/contact" 
     routerLinkActive #contact="routerLinkActive" 
     [active]="contact.isActive">
-    Contact us
+   {{ "Contact us" | translate }}
     </a>
 
     <a mat-tab-link routerLink="/offers" 
     routerLinkActive #offers="routerLinkActive" 
     [active]="offers.isActive">
-    About Spa
+    {{ "Aboutt Spa" | translate}}
     </a>
 </nav>
 </div>

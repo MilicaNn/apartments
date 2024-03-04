@@ -27,7 +27,10 @@ export class OffersComponent implements AfterViewInit, OnInit{
           this.translatedParagraph = this.sanitizer.bypassSecurityTrustHtml(res);
       
       });
+     
   }
+ 
+  
 
   displayedColumns: string[] = ['position', 'name', 'symbol'];
   dataSource = new MatTableDataSource<PeriodicElement>(ELEMENT_DATA);
@@ -46,6 +49,9 @@ export class OffersComponent implements AfterViewInit, OnInit{
     'Peloid Therapy',
     'Inhalations'
   ];
+
+ 
+
 //panel za terapije
   panelOpenState = false;
 

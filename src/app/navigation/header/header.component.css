@@ -3,7 +3,7 @@
 }
 .logo-container{
     width: 100%;
-    margin-right: 40px;  
+    margin-right: -5%;  
 }
 .logo{
     width: 350px;
@@ -29,3 +29,20 @@
     transition: 0.2s linear;
     top: -100px;
 }
+.buttonn{
+    background-color:rgb(64, 139, 224);
+    border: none;
+    color: rgb(255, 255, 255);
+    padding: 8px 12px; 
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
+    margin: 4px 2px; 
+    cursor: pointer;
+    border-radius: 15px; /* Zaobljeni ivici */
+    transition: background-color 0.3s ease; /* Efekat tranzicije */
+}
+.buttonn:hover {
+    background-color: #2382f7; /* Tamnija zelena boja na hover */
+  }

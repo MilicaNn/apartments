@@ -183,7 +183,128 @@
               "stomach ulcers, chronic gastritis": "( čirevi na želucu, hronični gastritis )",
               "eczema": "( ekcem )",
 
-              "PARAGRAPH7": "Pored lekovitih izvora, raznih terapija i atraktivnih gejzira, boravak u Sijarinskoj Banji ima još nešto da ponudi svojim posetiocima - <br><br>na primer, uslovi ovde su idealni za lov i ribolov, postoji mnogo terena za male sportove, soba za šah, unutrašnji bazen... <br>Postoji mnogo opcija za zabavne-rekreativne i sportske aktivnosti. <br><br>Od kulturno-istorijskih spomenika, ostaci carskog grada, odnosno carskog grada Justijan Prvi iz ranog Vizantijskog perioda, imaju veći značaj.<br><br>Sijarinska Banja je jedna od najbogatijih banja u našoj zemlji po broju izvora, takođe se ističe po svojim atraktivnim gejzirima sa toplom vodom, koji su vrlo retki, i upotpunjuje svoju turističku ponudu interesantnim rekreativnim sadržajem kao i izletima od kulturnog i istorijskog značaja.<br>"
+              "PARAGRAPH7": "Pored lekovitih izvora, raznih terapija i atraktivnih gejzira, boravak u Sijarinskoj Banji ima još nešto da ponudi svojim posetiocima - <br><br>na primer, uslovi ovde su idealni za lov i ribolov, postoji mnogo terena za male sportove, soba za šah, unutrašnji bazen... <br>Postoji mnogo opcija za zabavne-rekreativne i sportske aktivnosti. <br><br>Od kulturno-istorijskih spomenika, ostaci carskog grada, odnosno carskog grada Justijan Prvi iz ranog Vizantijskog perioda, imaju veći značaj.<br><br>Sijarinska Banja je jedna od najbogatijih banja u našoj zemlji po broju izvora, takođe se ističe po svojim atraktivnim gejzirima sa toplom vodom, koji su vrlo retki, i upotpunjuje svoju turističku ponudu interesantnim rekreativnim sadržajem kao i izletima od kulturnog i istorijskog značaja.<br>",
+
+                "List of Therapies": "Lista terapija",
+                "Description of therapies, and subtypes of therapies": "Opis terapija i podtipova terapija",
+                "Hydrotherapy": "Hidroterapija",
+                "Electrotherapy": "Elektroterapija",
+                "Physical - Kinesis Therapy": "Fizikalna - Kinezis terapija",
+                "Peloid Therapy": "Peloidna terapija",
+                "Inhalations": "Inhalacije",
+
+                "Types of electrotherapy":"Tipovi elektroterapije :",
+                "el":"Elektroterapija je korišćenje brojnih modaliteta električne struje dobijenih putem modernih elektronskih uređaja u terapijske svrhe. Elektroterapija uzrokuje dilataciju (proširenje) krvnih sudova i povećava cirkulaciju krvi i limfe, što povećava trofiku tkiva i promoviše resorpciju edema i smanjenje otoka. Na taj način, smanjuje se inflamatorni proces i pomaže u uklanjanju faktora koji dovode do bola. Elektroterapija ima analgetski efekat na bol, što znači da veoma dobro smanjuje bol, stimulišući receptore u koži i oslobađajući endogene opioide, kao i poboljšavajući cirkulaciju krvi i limfe. Ona promoviše regeneraciju perifernih nerava i osteogenezu (zarastanje) kod preloma kostiju.",
+                
+                  "Hydrotherapy is a therapeutic practice that uses water for a variety of purposes to improve a person's health and well-being. This type of therapy is often applied in spas and wellness centers, and is used both for the treatment of certain conditions and for relaxation and improvement of the general state of the body.": "Hidroterapija je terapeutska praksa koja koristi vodu u razne svrhe radi poboljšanja zdravlja i blagostanja osobe. Ova vrsta terapije često se primenjuje u spa centrima i centrima za blagostanje, i koristi se kako za lečenje određenih stanja, tako i za opuštanje i poboljšanje opšteg stanja tela.",
+                  "Types of hydrotherapy:": "Tipovi hidroterapije:",
+                  "Hot and Cold Compresses": "Topli i hladni oblozi",
+                  "The combination of hot and cold compresses can be used to reduce swelling, alleviate pain, and improve circulation. Warm compresses relax muscles, while cold compresses reduce inflammation.": "Kombinacija toplih i hladnih obloga može se koristiti za smanjenje otoka, ublažavanje bola i poboljšanje cirkulacije. Topli oblozi opuštaju mišiće, dok hladni oblozi smanjuju upalu.",
+                  "Warm Bath": "Topla kupka",
+                  "A warm bath has a relaxing effect on muscles and can help reduce stress and tension. Adding specific ingredients such as sea salt or essential oils can enhance the therapeutic effect.": "Topla kupka opušta mišiće i može pomoći u smanjenju stresa i napetosti. Dodavanje specifičnih sastojaka poput morske soli ili eteričnih ulja može poboljšati terapijski efekat.",
+                  "Cold Shower": "Hladan tuš",
+                  "A cold shower can be used to stimulate circulation, reduce fatigue, and increase alertness. This technique is often applied as part of a contrast treatment involving hot and cold water.": "Hladan tuš može se koristiti za stimulaciju cirkulacije, smanjenje umora i povećanje budnosti. Ova tehnika se često primenjuje kao deo kontrastnog tretmana koji uključuje toplu i hladnu vodu.",
+                  "Hydromassage": "Hidromasaža",
+                  "Hydromassage involves the use of water jets under pressure to provide a body massage. This can help relax muscles, improve circulation, and reduce stress.": "Hidromasaža podrazumeva upotrebu mlazeva vode pod pritiskom kako bi se pružila masaža tela. Ovo može pomoći u opuštanju mišića, poboljšanju cirkulacije i smanjenju stresa.",
+                  "Swimming": "Plivanje",
+                  "Swimming is an excellent exercise engaging various muscle groups, improving cardiovascular health, and providing a relaxing experience.": "Plivanje je odlična vežba koja angažuje različite grupe mišića, poboljšava kardiovaskularno zdravlje i pruža opuštajuće iskustvo.",
+                  "Steam baths": "Parne kupke",
+                  "Steam baths use the heat of water vapor to open pores, cleanse the skin, and improve breathing. This type of hydrotherapy is often combined with aromatherapy.": "Parne kupke koriste toplotu vodene pare kako bi otvorile pore, očistile kožu i poboljšale disanje. Ova vrsta hidroterapije često se kombinuje s aromaterapijom.",
+                  
+                    "Galvanic current": "Galvanska struja",
+                    "It is a one-way constant current that is used in painful conditions, rheumatic diseases, swelling, nerve injuries, etc. Indications for the application of galvanic current are: neuralgia, neuritis, peripheral lesions and paralysis (accelerates nerve nutrition and recovery), periarthritis, bursitis, tendinitis, enthesopathies (inflammation of soft tissues around the joints), arthrosis, arthritis (painful knees, hips, wrist joints), cervical and lumbar syndrome, post-traumatic swellings and hematomas, distortions (soft tissue injuries).": "To je jednosmerna stalna struja koja se koristi u bolnim stanjima, reumatskim bolestima, oticanju, povredama nerva, itd. Indikacije za primenu galvanske struje su: neuralgija, neuritis, periferne lezije i paraliza (ubrzava ishranu i oporavak nerava), periartritis, burzitis, tendinitis, entezopatije (upalne promene mekih tkiva oko zglobova), artroza, artritis (bolni zglobovi kolena, kukova, zgloba zgloba), cervikalni i lumbalni sindrom, posttraumatsko oticanje i hematomi, deformacije (povrede mekih tkiva).",
+
+                    
+                      "interference_currents": "interferentne struje",
+                      "interference_currents_description": "Interferentne struje su naizmenične struje dobijene presecanjem, tj. interferencijom dve struje srednjeg frekvencijskog opsega i nazivaju se 'presečene struje'. One se primenjuju pomoću četiri elektrode različitih oblika i veličina koje se postavljaju na kožu. Nedavno su se sve više koristile bipolarne interferentne struje koje se primenjuju kroz dve elektrode. Prednost ovog terapijskog postupka je dubok efekat u tkivima na mestu gde se struje presecaju (npr. u zglobu kuka). Takođe, to je jedina forma elektroterapije koja se može primeniti kod pacijenata sa prisustvom metala u telu (npr. nakon ugradnje veštačkog kuka). Terapijski efekat na tkiva je višestruk: smanjenje bola (analgetski efekat), smanjenje otoka (anti-edematozno), smanjenje upale (protivupalno), ubrzanje regeneracije tkiva (poboljšava snabdevanje tkiva kiseonikom), promoviše osteogenezu, tj. zarastanje kosti nakon preloma.",
+
+  
+       "magnetotherapy": "Magnetoterapija",
+       "magnetotherapy_description": "Magnetoterapija uključuje primenu stalnog ili promenljivog magnetskog polja niske frekvencije u terapijske svrhe.",
+      "sonophoresis_and_ultrasound": "Sonoforeza i ultrazvuk",
+      "sonophoresis_and_ultrasound_description": "Ultrazvučna terapija (UZ) podrazumeva terapijsku upotrebu zvučnih talasa od oko 1 milion oscilacija ili 1000 kHz. Efekat na tkivo je višestruk. Osnovni princip delovanja je mehaničko dejstvo, koje se sastoji u visokofrekventnom talasnom kretanju zvučnih talasa, što dovodi do mehaničke vibracije čestica tkiva i time do 'mikromasaže' tkiva. Ostali efekti su: proširuje krvne sudove (vazodilatacija), deluje protiv bola (analgetski), protiv inflamacije tkiva (protivupalno), protiv otoka (antiedematozno), smanjuje 'grčenje' mišića (spazmolitički), smanjuje ožiljke (fibrinolitički), povećava uzbuđivost motornih nerava.",
+
+
+        "diadynamic_currents": "Diadinamički strujni tretman (DDS)",
+        "diadynamic_currents_description": "Diadinamički strujni tretman (DDS) su niskofrekventne struje polu-sinusoidnog oblika koje se primenjuju u formi pet modulacija, pri čemu svaka modulacija ima specifičan terapijski efekat. Terapijski efekat je višestruk: analgetski efekat (protiv bola), spazmolitički (smanjuje grčeve mišića), vazodilatatorni (normalizuje poremećenu cirkulaciju), protivupalni efekat.",
+
+    
+          "electro_stimulation": "Elektrostimulacija",
+          "electro_stimulation_description": "Elektrostimulacija je terapijski postupak sa niskofrekventnim strujama u kojem se stimuli određenog intenziteta, frekvencije i trajanja koriste kako bi se izazvala kontrakcija mišića koji iz određenih razloga nisu sposobni da funkcionišu na normalan način. Stimulacija mišića, tj. kontrakcija može se izazvati električnim impulsima kroz motornu tačku mišića (mesto gde nerv ulazi u mišić) ili motornu tačku nerva (mesto gde je nervni trup najpovršniji, najbliži površini kože). Ovaj metod primenjuje se putem nekoliko vrsta elektroda - ploča (za stimulaciju grupe mišića odjednom) ili tačkastih elektroda (za stimulaciju pojedinačnih mišića).",
+          "electrophoresis": "Elektroforeza",
+          "electrophoresis_description": "Terapijski postupak unošenja lekova u organizam putem jednosmerne konstantne ili jednosmerne impulsne struje srednje frekvencije. Ovim metodama moguće je da se lek unese na mesto povrede ili inflamacije u najkraćem mogućem roku i odmah deluje. Ovaj metod primenjuje se putem elektroda koje su umotane u gazu i natopljene destilovanom vodom i ravnomerno poprskane rastvorom leka (kortikosteroidi, analgetici, antibiotici). Prednosti ove terapije su produženi efekat leka jer se stvara depot u koži i lek se postepeno oslobađa u tkivo, delujući u maksimalnoj koncentraciji direktno na mestu patološkog procesa. Takođe, izbegava se oštećenje gastrointestinalnog trakta i obilazi se krvotok jetre, a samim tim i njegovo oštećenje.",
+
+          "Kinesitherapy":"Kineziterapija",
+
+            "kinesitherapy_text": "Kineziterapija, korektivna terapija (iz grčkog: kinesis - pokret, therapeio - lečenje) je vrsta fizikalne terapije i oblast sportske medicine, koja se karakteriše primenom pokreta usklađenih sa terapijskim zahtevima i pacijentom kao celinom. <br> Essencijalno se bazira na primeni vežbi, zasnovanih na naučnim principima, koje su prilagođene za povećanje snage, <br> izdržljivosti i pokretljivosti osoba sa funkcionalnim ograničenjima ili onih (sportista) koji zahtevaju produženu fizičku spremnost, i stoga su joj glavni ciljevi:",
+            "prevention_of_damage": "Prevencija oštećenja funkcije lokomotornog sistema",
+            "improvement_of_function": "Poboljšanje segmentalne i opšte lokomotorne funkcije. Glavni preduslov za postizanje ovog cilja je dobra procena lokomotornog sistema.",
+            "improvement_or_treatment_of_impairment": "Poboljšanje ili lečenje poremećenih funkcija kardiovaskularnog, respiratornog i drugih sistema",
+
+            "peloid_therapy": "Peloidna terapija",
+              "peloid_therapy_description": "Peloidna terapija je vrsta terapije koja se oslanja na upotrebu termalnog blata, gline ili drugih sedimentnih materijala u lečenju različitih zdravstvenih problema. Ova vrsta terapije se često koristi u spa centrima i lečilištima zbog potencijalnih terapijskih efekata na kožu, mišiće i zglobove.",
+              "types_of_peloid_therapy": "Vrste peloidne terapije:",
+              "peloid_bath": "Peloidna kupka",
+              "peloid_bath_description": "Pacijent je potpuno ili delimično potopljen u toploj vodi u kojoj su rastvoreni sedimentni materijali poput blata ili gline. Ova kupka može imati pozitivan efekat na cirkulaciju, opuštanje mišića i poboljšanje teksture kože.",
+              "peloid_wraps": "Peloidni oblozi",
+              "peloid_wraps_description": "Topli peloidni oblozi se direktno nanose na određene delove tela koji zahtevaju tretman. Ovo može pomoći u smanjenju bola, otoka i poboljšanju lokalne cirkulacije.",
+              "peloid_massages": "Peloidne masaže",
+              "peloid_massages_description": "Terapeut može koristiti peloidne pripravke tokom masaže kako bi pojačao terapijske efekte. Ovo se često koristi u kombinaciji sa drugim oblicima terapije.",
+
+              
+                "inhalation_therapy": "Inhalaciona terapija",
+                "inhalation_therapy_description": "Inhalaciona terapija je oblik lečenja koji uključuje udisanje različitih supstanci, poput lekovitih para, radi pružanja terapijskih koristi, posebno kod respiratornih problema. Ovaj tip terapije se često koristi u spa i zdravstvenim centrima kako bi se rešili respiratorni problemi i unapredilo opšte blagostanje.",
+                "types_of_inhalations": "Tipovi inhalacija:",
+                "steam_inhalation": "Inhalacija pare",
+                "steam_inhalation_description": "U ovom metodu, osobe udišu paru koja se generiše iz tople vode. Može pomoći u umirivanju respiratornih puteva, olakšavanju zagušenja i pružanju olakšanja kod stanja poput prehlade i sinusitisa.",
+
+          
+                  "transcutaneous_electrical_nerve_stimulation": "Transkutana električna nervna stimulacija (TENS)",
+                  "transcutaneous_electrical_nerve_stimulation_description": "Transkutana električna nervna stimulacija (TENS) je terapija koja koristi niske električne struje kako bi olakšala bol. Posebno je efikasna u lečenju akutnih i hroničnih stanja bola.",
+  
+                  
+                    "Home": "Početna",
+                    "Accommodation": "Smještaj",
+                    "Single room": "Jednokrevetna soba",
+                    "Double room": "Dvokrevetna soba",
+                    "Studio apartmens": "Apartmani sa studio sobom",
+                    "Attic log cabin": "Brvnara na tavanu",
+                    "First floor log cabin": "Brvnara na prvom spratu",
+                    "Image gallery": "Galerija slika",
+                    "Contact us": "Kontaktirajte nas",
+                    "Aboutt Spa": "O spa centru",
+
+                    "Address" :"Adresa",
+                    "Information":"Informacije",
+                    "Maps":"Mapa",
+                    "Folow us":"Zapratite nas"
+
+                  
+                  
+
+                
+                
+              
+              
+            
+            
+
+        
+          
+        
+        
+      
+      
+                    
+                      
+                    
+                    
+                  
+                  
+                
+                
+              
+              
 
           
               

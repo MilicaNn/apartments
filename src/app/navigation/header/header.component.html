@@ -11,14 +11,15 @@
       </div>
     </div>
     <div>
-      <!-- dodajemo metodu na klik- onTooggleOpenSidenav
-      <button  (click)="switchLanguage('en')">English
-      </button>
-      <button (click)="switchLanguage('sr')">Srpski
-      </button> -->
-      <button (click)="switchLanguage('en')">English</button>
-      <button (click)="switchLanguage('sr')">Srpski</button>
-
+      <button (click)="switchLanguage('en')" class="buttonn">EN</button>
+      <button (click)="switchLanguage('sr')" class="buttonn">SR</button>
     </div>
+    <!-- <button mat-icon-button [matMenuTriggerFor]="languageMenu">
+      <mat-icon>menu</mat-icon>
+    </button>
+    <mat-menu #languageMenu="matMenu">
+      <button mat-menu-item (click)="switchLanguage('en')"> Engleski </button>
+      <button mat-menu-item (click)="switchLanguage('sr')"> Srpski </button>
+    </mat-menu> -->
 </mat-toolbar>
 
