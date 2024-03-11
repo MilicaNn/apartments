@@ -25,8 +25,10 @@
     height: 60px;
     font-size: 25px;
     transition: 0.2s linear;
-    top: 163px;
+    top: 0px;
+    /* top:163px;  ukoliko hocu zajedno sa heder komponentom da fiksiram meni.... */
     z-index: 1200;
+    background-color: rgb(255, 229, 190);
 }
 .nofixed{
     position: static;
@@ -36,3 +38,5 @@
 .mat-mdc-tab-nav-bar{
     --mat-tab-header-inactive-label-text-color:#2382f7!important;
 }
+
+

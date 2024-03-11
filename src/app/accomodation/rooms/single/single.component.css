@@ -56,7 +56,6 @@
 .text-box{
     text-align: center;
     transform: translateY(-270%);
-    left: 3%;
     position: relative;
     width: 100%;
 }
